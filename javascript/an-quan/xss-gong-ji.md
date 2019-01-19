@@ -119,3 +119,5 @@ txt中的代码如下
 
 对cookie的保护
 * 对重要的cookie设置httpOnly, 防止客户端通过document.cookie读取cookie。服务端可以设置此字段。
+
+对用户输入数据的处理
