@@ -57,3 +57,10 @@ router.get('/test', function (req, res, next) {
 ```
 
 现在我们通过给textarea添加一段有攻击目的的img标签，
+```html
+<img src="null" onerror='alert(document.cookie)' />
+```
+
+
+
+
