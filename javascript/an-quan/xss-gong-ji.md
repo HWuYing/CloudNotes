@@ -20,7 +20,6 @@ XSS攻击方式
 <textarea name="txt" id="txt" cols="80" rows="10">
 <button type="button" id="test">测试</button>
 ```
-
 ```javascript
 var test = document.querySelector('#test')
 test.addEventListener('click', function () {
