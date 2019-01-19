@@ -90,7 +90,6 @@ test.addEventListener('click', function () {
   window.alert(node)
 }, false)
 ```
-
 txt中的代码如下
 
 ```html
