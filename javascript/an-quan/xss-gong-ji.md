@@ -16,10 +16,10 @@ XSS攻击方式
 
 使用express起一个web服务器，然后设置一下请求接口。通过ajax的GET请求将参数发往服务器，服务器解析成json后响应。将返回的数据解析后显示到页面上。（没有对返回的数据进行解码和过滤等操作。）
 
-
+```html
 <textarea name="txt" id="txt" cols="80" rows="10">
 <button type="button" id="test">测试</button>
-
+```
 var test = document.querySelector('#test')
 test.addEventListener('click', function () {
   var url = `/test?test=${txt.value}`   // 1. 发送一个GET请求
