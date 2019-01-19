@@ -61,6 +61,5 @@ router.get('/test', function (req, res, next) {
 <img src="null" onerror='alert(document.cookie)' />
 ```
 实际的页面时这样的。![](/assets/896144-20171029192732711-518077370.png)
-
-
+ok现在，我们点击<测试>按钮，一个XSS攻击就发生了。下面图片中是获取了本地的部分cookie信息
 
