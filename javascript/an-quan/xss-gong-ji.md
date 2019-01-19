@@ -84,7 +84,7 @@ DOM XSS代码的攻击发生的可能在于我们编写JS代码造成的。我�
 
 如以下代码
 
-···javascript
+```javascript
 test.addEventListener('click', function () {
   var node = window.eval(txt.value)
   window.alert(node)
