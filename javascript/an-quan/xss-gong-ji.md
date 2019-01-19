@@ -97,7 +97,7 @@ txt中的代码如下
 
 ### XSS危害
 <ol>
-  <dt>通过document.cookie盗取cookie</dt>
+  <li>通过document.cookie盗取cookie</li>
 </ol>
 
 使用js或css破坏页面正常的结构与样式
