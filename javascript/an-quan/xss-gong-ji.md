@@ -44,5 +44,14 @@ test.addEventListener('click', function () {
 }, false)
 
 express
+var express = require('express');
+var router = express.Router();
+
+router.get('/test', function (req, res, next) {
+ // 2. 服务端解析成JSON后响应
+  res.json({
+    test: req.query.test
+  })
+})
 
 ```
