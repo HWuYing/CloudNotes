@@ -109,7 +109,7 @@ txt中的代码如下
 
 <ol>
   <li>没有过滤危险的DOM节点。如具有执行脚本能力的script, 具有显示广告和色情图片的img, 具有改变样式的link, style, 具有内嵌页面的iframe, frame等元素节点。</li>
-  <li>没有过滤危险的属性节点。如事件, style, src, href等</li>
+  <li>没有对cookie设置httpOnly。</li>
   <li>流量劫持（通过访问某段具有window.location.href定位到其他页面）</li>
   <li>Dos攻击：利用合理的客户端请求来占用过多的服务器资源，从而使合法用户无法得到服务器响应。</li>
   <li>利用iframe、frame、XMLHttpRequest或上述Flash等方式，以（被攻击）用户的身份执行一些管理动作，或执行一些一般的如发微博、加好友、发私信等操作。</li>
