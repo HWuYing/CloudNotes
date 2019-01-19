@@ -179,3 +179,14 @@ function parse (str) {
       return result
   }```
 因此，有了以上的parse函数之后，就可以避免大部分的xss攻击了。
+那么，栗子说完了。
+
+稍微总结一下
+<ol>
+  <li>一旦在DOM解析过程成出现不在预期内的改变（JS代码执行或样式大量变化时），就可能发生XSS攻击</li>
+  <li>XSS分为反射型XSS，存储型XSS和DOM XSS</li>
+  <li>反射型XSS是在将XSS代码放在URL中，将参数提交到服务器。服务器解析后响应，在响应结果中存在XSS代码，最终通过浏览器解析执行。</li>
+  <li><li>
+</ol>
+
+
