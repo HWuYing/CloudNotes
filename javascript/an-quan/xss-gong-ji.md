@@ -138,4 +138,45 @@ txt中的代码如下
   <li>过滤掉一些元素有危害的元素节点与属性节点。如script标签，onerror事件等。（使用第三方库HTMLParser.js）</li>
 </ol>
 
+```javascript
+<script src='/javascripts/htmlparse.js'></script>
+<script src='/javascripts/he.js'></script>
+// 第三方库资源在文章底部给出
 
+// parse函数实现如下
+
+function parse (str) {
+      // str假如为某个DOM字符串
+      // 1. result为处理之后的DOM节点
+      let result = ''
+      // 2. 解码
+      let decode = he.unescape(str, {
+          strict: true
+      })
+      HTMLParser(decode, {
+          start (tag, attrs, unary) {
+              // 3. 过滤常见危险的标签
+              if (tag === 'script' || tag === 'img' || tag === 'link' || tag === 'style' || tag === 'iframe' || tag === 'frame') return
+              result += `<${tag}`
+              for (let i = 0; i < attrs.length; i++) {
+                  let name = (attrs[i].name).toLowerCase()
+                  let value = attrs[i].escaped
+                  // 3. 过滤掉危险的style属性和js事件
+                  if (name === 'style' || name === 'href' || name === 'src' || ~name.indexOf('on')) continue
+                  result += ` ${name}=${value}`
+              }
+              result += `${unary ? ' /' : ''} >`
+          },
+          chars (text) {
+              result += text
+          },
+          comment (text) {
+              result += `<!-- ${text} -->`
+          },
+          end (tag) {
+              result += `</${tag}>`
+          }
+      })
+      return result
+  }
+  ```
