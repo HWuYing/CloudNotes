@@ -92,3 +92,6 @@ test.addEventListener('click', function () {
 
 txt中的代码如下
 ```
+```html
+<img src='null' onerror='alert(123)' />
+```
