@@ -98,9 +98,10 @@ txt中的代码如下
 ### XSS危害
 <ol>
   <li>通过document.cookie盗取cookie</li>
+  <li>使用js或css破坏页面正常的结构与样式</li>
 </ol>
 
-使用js或css破坏页面正常的结构与样式
+
 流量劫持（通过访问某段具有window.location.href定位到其他页面）
 Dos攻击：利用合理的客户端请求来占用过多的服务器资源，从而使合法用户无法得到服务器响应。
 利用iframe、frame、XMLHttpRequest或上述Flash等方式，以（被攻击）用户的身份执行一些管理动作，或执行一些一般的如发微博、加好友、发私信等操作。
