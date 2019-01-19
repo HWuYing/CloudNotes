@@ -83,3 +83,13 @@ DOM XSS攻击不同于反射型XSS和存储型XSS，DOM XSS代码不需要服务
 DOM XSS代码的攻击发生的可能在于我们编写JS代码造成的。我们知道eval语句有一个作用是将一段字符串转换为真正的JS语句，因此在JS中使用eval是很危险的事情，容易造成XSS攻击。避免使用eval语句。
 
 如以下代码
+
+···javascript
+test.addEventListener('click', function () {
+  var node = window.eval(txt.value)
+  window.alert(node)
+}, false)
+
+txt中的代码如下
+<img src='null' onerror='alert(123)' />
+```
