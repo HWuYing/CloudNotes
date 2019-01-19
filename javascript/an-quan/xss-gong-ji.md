@@ -121,3 +121,10 @@ txt中的代码如下
 * 对重要的cookie设置httpOnly, 防止客户端通过document.cookie读取cookie。服务端可以设置此字段。
 
 对用户输入数据的处理
+
+<ol>
+  <li>没有过滤危险的DOM节点。如具有执行脚本能力的script, 具有显示广告和色情图片的img, 具有改变样式的link, style, 具有内嵌页面的iframe, frame等元素节点。</li>
+  <li>没有对cookie设置httpOnly。</li>
+  <li>没有过滤危险的属性节点。如事件, style, src, href等</li>
+</ol>
+
