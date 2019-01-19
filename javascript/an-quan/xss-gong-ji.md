@@ -22,6 +22,7 @@ html
 <button type="button" id="test">测试</button>
 ```
 ```javascript
+js
 var test = document.querySelector('#test')
 test.addEventListener('click', function () {
   var url = `/test?test=${txt.value}`   // 1. 发送一个GET请求
