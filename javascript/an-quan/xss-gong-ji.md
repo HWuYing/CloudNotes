@@ -94,3 +94,5 @@ test.addEventListener('click', function () {
 txt中的代码如下
 <img src='null' onerror='alert(123)' />
 ```
+
+### XSS危害
