@@ -60,7 +60,7 @@ router.get('/test', function (req, res, next) {
 ```html
 <img src="null" onerror='alert(document.cookie)' />
 ```
-
+实际的页面时这样的。![](/assets/896144-20171029192732711-518077370.png)
 
 
 
