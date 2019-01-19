@@ -89,8 +89,11 @@ test.addEventListener('click', function () {
   var node = window.eval(txt.value)
   window.alert(node)
 }, false)
-```
+
 txt中的代码如下
+
+```
+
 
 ```html
 <img src='null' onerror='alert(123)' />
