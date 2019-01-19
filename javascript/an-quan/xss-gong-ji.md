@@ -141,7 +141,6 @@ txt中的代码如下
 ```javascript
 <script src='/javascripts/htmlparse.js'></script>
 <script src='/javascripts/he.js'></script>
-// 第三方库资源在文章底部给出
 
 // parse函数实现如下
 
