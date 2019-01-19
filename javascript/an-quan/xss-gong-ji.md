@@ -96,9 +96,9 @@ txt中的代码如下
 ```
 
 ### XSS危害
-<ul>
-  <li>通过document.cookie盗取cookie</li>
-</ul>
+<dl>
+  <dt>通过document.cookie盗取cookie</dt>
+</dl>
 
 使用js或css破坏页面正常的结构与样式
 流量劫持（通过访问某段具有window.location.href定位到其他页面）
