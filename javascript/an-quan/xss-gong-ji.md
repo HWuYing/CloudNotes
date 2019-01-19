@@ -19,8 +19,7 @@ XSS攻击方式
 ```html
 <textarea name="txt" id="txt" cols="80" rows="10">
 <button type="button" id="test">测试</button>
-```
-```javascript
+
 var test = document.querySelector('#test')
 test.addEventListener('click', function () {
   var url = `/test?test=${txt.value}`   // 1. 发送一个GET请求
@@ -40,5 +39,3 @@ test.addEventListener('click', function () {
   xhr.open('GET', url, true)
   xhr.send(null)
 }, false)
-
-```
