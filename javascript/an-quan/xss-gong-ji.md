@@ -135,7 +135,7 @@ txt中的代码如下
 <ol>
   <li>存在一个parse函数，对输入的数据进行处理，返回处理之后的数据</li>
   <li>对输入的数据（如DOM节点）进行解码（使用第三方库 he.js）</li>
-  <li>过滤：把输入的一些不合法的东西都过滤掉，从而保证安全性。如移除用户上传的DOM属性，如onerror，移除用户上传的Style节点，iframe, script节点等。</li>
+  <li>过滤掉一些元素有危害的元素节点与属性节点。如script标签，onerror事件等。（使用第三方库HTMLParser.js）</li>
 </ol>
 
 
