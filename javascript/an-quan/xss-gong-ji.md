@@ -177,6 +177,6 @@ function parse (str) {
           }
       })
       return result
-  }
-  ```
+  }```
+  
   因此，有了以上的parse函数之后，就可以避免大部分的xss攻击了。
