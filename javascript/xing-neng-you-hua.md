@@ -65,3 +65,5 @@
    myCallback('Hello world!');  
 </span>  
 ```
+
+像以上这种方式直接在页面上写 <script> 对页面的性能也是有影响的，即增加了页面首次加载的负担，推迟了 DOMLoaded和window.onload 事件的触发时机。如果时效性允许的话，可以考虑在 DOMLoaded事件触发的时候加载，或者使用 setTimeout方式来灵活的控制加载的时机。
