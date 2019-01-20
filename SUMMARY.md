@@ -5,6 +5,8 @@
 * [web](javascript.md)
   * [js](javascript/js.md)
     * [闭包](javascript/js/bi-bao.md)
+    * 原型链
+    * 作用域链
   * [安全](javascript/an-quan.md)
     * [xss 攻击](javascript/an-quan/xss-gong-ji.md)
   * [性能优化](javascript/xing-neng-you-hua.md)
