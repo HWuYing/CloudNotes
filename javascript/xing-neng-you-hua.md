@@ -108,4 +108,16 @@ function myCallback(info){
 更高效的写法：
 
 ```javascript
+var globalVar = 1;   
+function myCallback(info){   
+    //局部变量缓存全局变量   
+    var localVar = globalVar;   
+    for( var i = 100000; i--;){   
+    //访问局部变量是最快的   
+    localVar += i;   
+    }   
+    //本例中只需要访问 2次全局变量  
+    在函数中只需要将 globalVar中内容的值赋给localVar 中  
+    globalVar = localVar;   
+}  
 ```
