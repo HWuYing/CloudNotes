@@ -56,4 +56,12 @@
 在某些页面中可能存在这样一种需求，需要使用 script标签来异步的请求数据。类似：
 
 ```javascript
+<span style="font-size:14px;">/*Callback 函数*/  
+    function myCallback(info){   
+        //do something here   
+    }   
+　HTML:  
+　　Callback返回的内容 :  
+   myCallback('Hello world!');  
+</span>  
 ```
