@@ -142,3 +142,4 @@ function myCallback(info){
 
 CDN加速
 &emsp;&emsp;CDN（contentdistribute network，内容分发网络）的本质仍然是一个缓存，而且将数据缓存在离用户最近的地方，使用户以最快速度获取数据，即所谓网络访问第一跳，如下图。
+![](/assets/20160521222226952)
