@@ -11,5 +11,4 @@
 * [network](network.md)
   * [http/https](network/httphttps.md)
     * [缓存](network/httphttps/huan-cun.md)
-* [http/https 缓存](network/httphttps-huan-cun.md)
 
