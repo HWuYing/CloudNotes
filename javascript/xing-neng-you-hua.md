@@ -38,3 +38,5 @@
 4、CSS Sprites
 
 &emsp;&emsp;合并 CSS图片，减少请求数的又一个好办法。
+
+5、LazyLoad Images
