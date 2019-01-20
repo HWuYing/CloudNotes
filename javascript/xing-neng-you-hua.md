@@ -130,3 +130,5 @@ function myCallback(info){
 &emsp;&emsp;a. 对任何对象属性的访问超过 1次 
 &emsp;&emsp;b. 对任何数组成员的访问次数超过 1次 
 &emsp;&emsp;另外，还应当尽可能的减少对对象以及数组深度查找。
+
+(6). 字符串拼接
