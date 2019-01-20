@@ -56,14 +56,13 @@
 在某些页面中可能存在这样一种需求，需要使用 script标签来异步的请求数据。类似：
 
 ```javascript
-    /*Callback 函数*/  
-    function myCallback(info){   
-        //do something here   
-    }   
+/*Callback 函数*/  
+function myCallback(info){   
+    //do something here   
+}   
 
-　　Callback返回的内容 :  
-   myCallback('Hello world!');  
-</span>  
+Callback返回的内容 :  
+myCallback('Hello world!');  
 ```
 像以上这种方式直接在页面上写 script 对页面的性能也是有影响的，即增加了页面首次加载的负担，推迟了 DOMLoaded和window.onload 事件的触发时机。如果时效性允许的话，可以考虑在 DOMLoaded事件触发的时候加载，或者使用 setTimeout方式来灵活的控制加载的时机。
 
