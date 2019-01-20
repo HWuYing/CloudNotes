@@ -6,6 +6,7 @@
     <li>函数的返回结果只依赖于它的参数。</li>
     <li>函数执行过程里面没有副作用。</li>
 </ul>
+<code></code>
 ```javascript
     const a = 1
     const foo = (b) => a + b
