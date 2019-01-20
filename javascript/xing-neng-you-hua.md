@@ -91,3 +91,5 @@ b. Reflow & Repaint　　
 &emsp;&emsp;eval 函数效率特别低，由于事先无法知晓传给 eval 的字符串中的内容，eval在其上下文中解释要处理的代码，也就是说编译器无法优化上下文，因此只能有浏览器在运行时解释代码。这对性能影响很大。 
 &emsp;&emsp;Function 构造函数比 eval略好，因为使用此代码不会影响周围代码 ;但其速度仍很慢。 
 &emsp;&emsp;此外，使用 eval和 Function也不利于Javascript 压缩工具执行压缩。
+
+(4). 减少作用域链查找
