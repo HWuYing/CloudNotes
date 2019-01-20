@@ -104,3 +104,5 @@ function myCallback(info){
     }  
 } 
 ```
+
+更高效的写法：
