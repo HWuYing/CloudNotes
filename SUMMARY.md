@@ -12,6 +12,7 @@
   * [性能优化](javascript/xing-neng-you-hua.md)
     * [web前端性能优化总结](javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
 * [函数式编程](han-shu-shi-bian-cheng.md)
+  * [纯函数](han-shu-shi-bian-cheng/chun-han-shu.md)
 * [network](network.md)
   * [http/https](network/httphttps.md)
     * [缓存](network/httphttps/huan-cun.md)
