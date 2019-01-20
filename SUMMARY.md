@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
 * [web](javascript.md)
   * [javascript](javascript/js.md)
     * [闭包](javascript/js/bi-bao.md)
