@@ -59,7 +59,7 @@
 /*Callback 函数*/  
 function myCallback(info){   
     //do something here   
-}   
+}
 Callback返回的内容 :  
 myCallback('Hello world!');  
 ```
