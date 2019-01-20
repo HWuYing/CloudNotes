@@ -50,9 +50,9 @@
 
 但是你在函数内部构建的变量，然后进行数据的修改不是副作用：
 ```javascript
-const foo = (b) => {
-  const obj = { x: 1 }
-  obj.x = 2
-  return obj.x + b
-}
+    const foo = (b) => {
+      const obj = { x: 1 }
+      obj.x = 2
+      return obj.x + b
+    }
 ```
