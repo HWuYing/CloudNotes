@@ -37,4 +37,12 @@
 ```
 我们把原来的 x 换成了 obj，我现在可以往里面传一个对象进行计算，计算的过程里面并不会对传入的对象进行修改，计算前后的 counter 不会发生任何变化，计算前是 1，计算后也是 1，它现在是纯的。但是我再稍微修改一下它：
 ```javascript
+    const a = 1
+    const foo = (obj, b) => {
+      obj.x = 2
+      return obj.x + b
+    }
+    const counter = { x: 1 }
+    foo(counter, 2) // => 4
+    counter.x // => 2
 ```
