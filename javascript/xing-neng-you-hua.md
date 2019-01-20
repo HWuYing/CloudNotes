@@ -79,3 +79,5 @@ a.HTML Collection（HTML收集器，返回的是一个数组内容信息）
 &emsp;&emsp;因此，当你需要遍历 HTML Collection的时候，尽量将它转为数组后再访问，以提高性能。即使不转换为数组，也请尽可能少的访问它，例如在遍历的时候可以将 length属性、成员保存到局部变量后再使用局部变量。
 b. Reflow & Repaint　　 
 &emsp;&emsp;除了上面一点之外， DOM操作还需要考虑浏览器的Reflow和Repaint ，因为这些都是需要消耗资源的。 
+
+(2). 慎用 with　
