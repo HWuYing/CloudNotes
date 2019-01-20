@@ -121,3 +121,5 @@ function myCallback(info){
     globalVar = localVar;   
 }  
 ```
+
+此外，要减少作用域链查找还应该减少闭包的使用。
