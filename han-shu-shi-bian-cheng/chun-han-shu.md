@@ -27,11 +27,11 @@
 我们修改一下 foo：
 
 ```javascript
-const a = 1
-const foo = (obj, b) => {
-  return obj.x + b
-}
-const counter = { x: 1 }
-foo(counter, 2) // => 3
-counter.x // => 1
+    const a = 1
+    const foo = (obj, b) => {
+      return obj.x + b
+    }
+    const counter = { x: 1 }
+    foo(counter, 2) // => 3
+    counter.x // => 1
 ```
