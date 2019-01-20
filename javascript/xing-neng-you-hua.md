@@ -96,4 +96,11 @@ b. Reflow & Repaint　　
 低效率的写法：
 
 ```javascript
+var globalVar = 1;   
+function myCallback(info){   
+    for( var i = 100000; i--;){   
+        //每次访问 globalVar 都需要查找到作用域链最顶端，本例中需要访问 100000 次   
+        globalVar += i;   
+    }  
+} 
 ```
