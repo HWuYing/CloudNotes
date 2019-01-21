@@ -9,7 +9,7 @@
     * [继承](javascript/js/ji-cheng.md)
     * [本地存储](javascript/js/ben-di-cun-chu.md)
       * [localStorage](javascript/js/ben-di-cun-chu/localstorage.md)
-      * sessionStorage
+      * [sessionStorage](javascript/js/ben-di-cun-chu/sessionstorage.md)
       * cookie
   * [安全](javascript/an-quan.md)
     * [xss 攻击](javascript/an-quan/xss-gong-ji.md)
