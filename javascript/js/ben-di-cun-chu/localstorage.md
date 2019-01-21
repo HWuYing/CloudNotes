@@ -129,3 +129,10 @@ if(!window.localStorage){
 
 #####localStorage的删除
 将localStorage的所有内容清除
+```javascript
+var storage=window.localStorage;
+storage.a=1;
+storage.setItem("c",3);
+console.log(storage);
+storage.clear();
+```
