@@ -112,10 +112,11 @@ if ('serviceWorker' in navigator) {
 
 ```javascript
 self.addEventListener('install', function(e) {
-e.waitUntil( // waitUntil() from ExtendableEvent
-    caches.open(cacheName).then(function(cache) {
-        console.log('[ServiceWorker] Caching app shell');
-        return cache.addAll(filesToCache);
-    }));
+    e.waitUntil( // waitUntil() from ExtendableEvent
+        caches.open(cacheName).then(function(cache) {
+            console.log('[ServiceWorker] Caching app shell');
+            return cache.addAll(filesToCache);
+        });
+    );
 });
 ```
