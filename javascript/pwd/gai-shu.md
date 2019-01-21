@@ -16,5 +16,5 @@
     <li>Discoverable （可发现）</li>
     <li>Re-engageable （可重用）</li>
     <li>Installable （可安装）</li>
-    <li>Discoverable （可发现）</li>
+    <li>Linkable （可链接）</li>
 </ul>
