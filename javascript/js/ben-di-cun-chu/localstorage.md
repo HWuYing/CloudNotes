@@ -65,3 +65,8 @@ if(！window.localStorage){
 这里要特别说明一下localStorage的使用也是遵循同源策略的，所以不同的网站直接是不能共用相同的localStorage
 
 最后在控制台上面打印出来的结果是:
+![](/assets/728493-20160626110312391-621359725.png)
+
+不知道各位读者有没有注意到，刚刚存储进去的是int类型，但是打印出来却是string类型，这个与localStorage本身的特点有关，localStorage只支持string类型的存储。
+
+localStorage的读取
