@@ -12,7 +12,7 @@
 ###localStorage的局限
 
 <ol>
-    <li></li>
+    <li>浏览器的大小不统一，并且在IE8以上的IE版本才支持localStorage这个属性</li>
     <li></li>
 </ol>
 
