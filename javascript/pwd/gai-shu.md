@@ -49,4 +49,8 @@
 
 ###Installable （可安装）
 
-&emsp;&emsp;
+&emsp;&emsp;渐进式Web应用程序可以直接安装到移动设备的主屏幕上。这主要是移动浏览器功能，使用Chrome，您也可以在桌面上执行此操作。 iOS Safari也支持此功能，因此如果你有iPhone，你可以加入PWA阵营。 安装Web应用程序真的很酷，您无需通过App Store或Google Play Store等市场下载应用程序。只需访问该网站，点击“添加到主屏幕”选项，该应用程序将立即显示在您的主屏幕上。
+
+###Linkable （可链接）
+
+&emsp;&emsp;可链接的Web应用程序是可共享的，因此托管在专用域上的应用程序不适用。 您只需要一个URL即可。
