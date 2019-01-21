@@ -6,6 +6,7 @@
     * [闭包](javascript/js/bi-bao.md)
     * [原型链](javascript/js/yuan-xing-lian.md)
     * [作用域链](javascript/js/zuo-yong-yu-lian.md)
+    * 继承
   * [安全](javascript/an-quan.md)
     * [xss 攻击](javascript/an-quan/xss-gong-ji.md)
   * [性能优化](javascript/xing-neng-you-hua.md)
