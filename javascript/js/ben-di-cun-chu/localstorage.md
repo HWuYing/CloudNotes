@@ -4,5 +4,6 @@
 
 ###localStorage的优势与局限
 
-
-
+<ol>
+    <li>localStorage拓展了cookie的4K限制</li>
+</ol>
