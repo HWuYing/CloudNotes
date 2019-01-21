@@ -31,7 +31,14 @@ localStorage的浏览器支持情况：
 
 &emsp;&emsp;首先在使用localStorage的时候，我们需要判断浏览器是否支持localStorage这个属性
 
-
+```javascript
+if(！window.localStorage){
+            alert("浏览器支持localstorage");
+            return false;
+        }else{
+            //主逻辑业务
+        }
+```
 
 
 
