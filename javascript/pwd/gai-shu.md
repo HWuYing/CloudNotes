@@ -14,7 +14,7 @@
     <li>Fresh （不断更新）</li>
     <li>Safe （安全）</li>
     <li>Discoverable （可发现）</li>
-    <li>Discoverable （可发现）</li>
+    <li>Re-engageable （可重用）</li>
     <li>Discoverable （可发现）</li>
     <li>Discoverable （可发现）</li>
 </ul>
