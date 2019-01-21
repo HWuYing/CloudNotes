@@ -15,6 +15,6 @@
     <li>Safe （安全）</li>
     <li>Discoverable （可发现）</li>
     <li>Re-engageable （可重用）</li>
-    <li>Discoverable （可发现）</li>
+    <li>Installable （可安装）</li>
     <li>Discoverable （可发现）</li>
 </ul>
