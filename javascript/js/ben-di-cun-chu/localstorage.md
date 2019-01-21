@@ -59,3 +59,5 @@ if(！window.localStorage){
     console.log(typeof storage["c"]);
 }
 ```
+
+运行后的结果如下：
