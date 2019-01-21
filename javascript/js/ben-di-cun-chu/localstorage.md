@@ -159,3 +159,9 @@ for(var i=0;i<storage.length;i++){
 使用key()方法，向其中出入索引即可获取对应的键
 
 ###localStorage其他注意事项
+
+ 一般我们会将JSON存入localStorage中，但是在localStorage会自动将localStorage转换成为字符串形式
+
+这个时候我们可以使用JSON.stringify()这个方法，来将JSON转换成为JSON字符串
+
+示例：
