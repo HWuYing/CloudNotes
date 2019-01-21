@@ -24,4 +24,5 @@
 
 ###localStorage的使用
 
+localStorage的浏览器支持情况：
 
