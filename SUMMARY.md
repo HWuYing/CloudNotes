@@ -17,9 +17,13 @@
     * [web前端性能优化总结](javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
   * [pwa](javascript/pwd.md)
     * [概述](javascript/pwd/gai-shu.md)
+  * [兼容](javascript/jian-rong.md)
+    * [移动端1px像素](javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
 * [函数式编程](han-shu-shi-bian-cheng.md)
   * [纯函数](han-shu-shi-bian-cheng/chun-han-shu.md)
 * [network](network.md)
   * [http/https](network/httphttps.md)
     * [缓存](network/httphttps/huan-cun.md)
+* [ES6](es6.md)
+  * [forEach、for-in、与for-of的区别](es6/foreachfor-in3001-yu-for-of-de-qu-bie.md)
 
