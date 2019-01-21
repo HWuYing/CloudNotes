@@ -125,3 +125,6 @@ if(!window.localStorage){
     console.log(storage.a);
 }
 ```
+这个在控制台上面我们就可以看到已经a键已经被更改为4了
+
+#####localStorage的删除
