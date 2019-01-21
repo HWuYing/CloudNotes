@@ -145,3 +145,4 @@ console.log(storage);
 storage.removeItem("a");
 console.log(storage.a);
 ```
+#####localStorage的键获取
