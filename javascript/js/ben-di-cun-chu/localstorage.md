@@ -184,4 +184,16 @@ if(!window.localStorage){
 读取之后要将JSON字符串转换成为JSON对象，使用JSON.parse()方法
 
 ```javascript
+var storage=window.localStorage;
+    var data={
+        name:'xiecanyong',
+        sex:'man',
+        hobby:'program'
+    };
+    var d=JSON.stringify(data);
+    storage.setItem("data",d);
+    //将JSON字符串转换成为JSON对象输出
+    var json=storage.getItem("data");
+    var jsonObj=JSON.parse(json);
+    console.log(typeof jsonObj);
 ```
