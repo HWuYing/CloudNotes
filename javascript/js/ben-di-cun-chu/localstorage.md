@@ -104,3 +104,24 @@ if(!window.localStorage){
 下面我们就来说一说localStorage的删、改这两个步骤
 
 改这个步骤比较好理解，思路跟重新更改全局变量的值一样，这里我们就以一个为例来简单的说明一下
+
+```javascript
+if(!window.localStorage){
+    alert("浏览器支持localstorage");
+}else{
+    var storage=window.localStorage;
+    //写入a字段
+    storage["a"]=1;
+    //写入b字段
+    storage.b=1;
+    //写入c字段
+    storage.setItem("c",3);
+    console.log(storage.a);
+    // console.log(typeof storage["a"]);
+    // console.log(typeof storage["b"]);
+    // console.log(typeof storage["c"]);
+    /*分割线*/
+    storage.a=4;
+    console.log(storage.a);
+}
+```
