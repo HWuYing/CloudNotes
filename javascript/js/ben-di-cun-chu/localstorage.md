@@ -25,6 +25,7 @@
 ###localStorage的使用
 
 localStorage的浏览器支持情况：
+![](/assets/728493-20160626102341735-27421870.jpg)
 
 
 
