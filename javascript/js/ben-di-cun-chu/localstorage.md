@@ -165,3 +165,18 @@ for(var i=0;i<storage.length;i++){
 这个时候我们可以使用JSON.stringify()这个方法，来将JSON转换成为JSON字符串
 
 示例：
+```javascript
+if(!window.localStorage){
+            alert("浏览器支持localstorage");
+        }else{
+            var storage=window.localStorage;
+            var data={
+                name:'xiecanyong',
+                sex:'man',
+                hobby:'program'
+            };
+            var d=JSON.stringify(data);
+            storage.setItem("data",d);
+            console.log(storage.data);
+        }
+```
