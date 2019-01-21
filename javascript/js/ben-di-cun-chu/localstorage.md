@@ -128,7 +128,7 @@ if(!window.localStorage){
 这个在控制台上面我们就可以看到已经a键已经被更改为4了
 
 #####localStorage的删除
-将localStorage的所有内容清除
+1、将localStorage的所有内容清除
 ```javascript
 var storage=window.localStorage;
 storage.a=1;
@@ -136,4 +136,4 @@ storage.setItem("c",3);
 console.log(storage);
 storage.clear();
 ```
-将localStorage中的某个键值对删除
+2、将localStorage中的某个键值对删除
