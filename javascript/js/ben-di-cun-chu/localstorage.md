@@ -10,3 +10,9 @@
 </ol>
 
 ###localStorage的局限
+
+<ol>
+    <li></li>
+    <li></li>
+</ol>
+
