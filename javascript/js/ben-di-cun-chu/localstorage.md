@@ -157,3 +157,5 @@ for(var i=0;i<storage.length;i++){
 }
 ````
 使用key()方法，向其中出入索引即可获取对应的键
+
+###localStorage其他注意事项
