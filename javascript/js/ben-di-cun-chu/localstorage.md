@@ -137,3 +137,10 @@ console.log(storage);
 storage.clear();
 ```
 2、将localStorage中的某个键值对删除
+var storage=window.localStorage;
+storage.a=1;
+storage.setItem("c",3);
+console.log(storage);
+storage.removeItem("a");
+console.log(storage.a);
+```
