@@ -121,3 +121,5 @@ self.addEventListener('install', function(e) {
 });
 ```
 waitUntil（）方法将在安装事件完成后开始执行promise
+
+####3. 激活
