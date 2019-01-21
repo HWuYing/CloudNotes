@@ -100,3 +100,9 @@ HTTPS是现代Web应用程序的基本协议，渐进式Web应用程序也不例
 #### 1、注册
 
 当应用程序第一次加载到浏览器中时，将发生这一请求。 这不是真正的Service Worker事件，因为此时服务不存在于浏览器上下文中，但这是重要的一步。 应用程序的主JavaScript文件应检查浏览器是否支持ServiceWorker API，如果是，请注册服务请求。注册成功后，将下载服务文件，然后开始安装。
+
+```javascript
+if ('serviceWorker' in navigator) { 
+  navigator.serviceWorker.register('./service-worker.js'); 
+}
+```
