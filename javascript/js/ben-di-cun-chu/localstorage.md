@@ -152,7 +152,7 @@ var storage=window.localStorage;
 storage.a=1;
 storage.setItem("c",3);
 for(var i=0;i<storage.length;i++){
-var key=storage.key(i);
-console.log(key);
+    var key=storage.key(i);
+    console.log(key);
 }
 ````
