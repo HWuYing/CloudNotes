@@ -7,3 +7,6 @@
 
 ###渐进式 Web 应用的原则
 
+<ul>
+    <li>Responsive（响应式）</li>
+</ul>
