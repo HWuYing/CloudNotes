@@ -70,3 +70,29 @@ if(！window.localStorage){
 不知道各位读者有没有注意到，刚刚存储进去的是int类型，但是打印出来却是string类型，这个与localStorage本身的特点有关，localStorage只支持string类型的存储。
 
 localStorage的读取
+
+```javascript
+if(!window.localStorage){
+    alert("浏览器支持localstorage");
+}else{
+    var storage=window.localStorage;
+    //写入a字段
+    storage["a"]=1;
+    //写入b字段
+    storage.a=1;
+    //写入c字段
+    storage.setItem("c",3);
+    console.log(typeof storage["a"]);
+    console.log(typeof storage["b"]);
+    console.log(typeof storage["c"]);
+    //第一种方法读取
+    var a=storage.a;
+    console.log(a);
+    //第二种方法读取
+    var b=storage["b"];
+    console.log(b);
+    //第三种方法读取
+    var c=storage.getItem("c");
+    console.log(c);
+}
+```
