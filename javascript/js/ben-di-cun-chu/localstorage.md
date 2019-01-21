@@ -146,3 +146,13 @@ storage.removeItem("a");
 console.log(storage.a);
 ```
 #####localStorage的键获取
+
+```javascript
+var storage=window.localStorage;
+storage.a=1;
+storage.setItem("c",3);
+for(var i=0;i<storage.length;i++){
+var key=storage.key(i);
+console.log(key);
+}
+````
