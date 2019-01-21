@@ -156,3 +156,4 @@ for(var i=0;i<storage.length;i++){
     console.log(key);
 }
 ````
+使用key()方法，向其中出入索引即可获取对应的键
