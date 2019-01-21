@@ -44,18 +44,18 @@ localStorage的写入，localStorage的写入有三种方法，这里就一一�
 
 ```javascript
 if(！window.localStorage){
-            alert("浏览器支持localstorage");
-            return false;
-        }else{
-            var storage=window.localStorage;
-            //写入a字段
-            storage["a"]=1;
-            //写入b字段
-            storage.a=1;
-            //写入c字段
-            storage.setItem("c",3);
-            console.log(typeof storage["a"]);
-            console.log(typeof storage["b"]);
-            console.log(typeof storage["c"]);
-        }
+    alert("浏览器支持localstorage");
+    return false;
+}else{
+    var storage=window.localStorage;
+    //写入a字段
+    storage["a"]=1;
+    //写入b字段
+    storage.a=1;
+    //写入c字段
+    storage.setItem("c",3);
+    console.log(typeof storage["a"]);
+    console.log(typeof storage["b"]);
+    console.log(typeof storage["c"]);
+}
 ```
