@@ -182,3 +182,6 @@ if(!window.localStorage){
 ```
 
 读取之后要将JSON字符串转换成为JSON对象，使用JSON.parse()方法
+
+```javascript
+```
