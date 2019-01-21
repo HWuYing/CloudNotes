@@ -109,3 +109,13 @@ if ('serviceWorker' in navigator) {
 ####2. 安装
 
 &emsp;&emsp;Install事件是服务器可以自己处理的第一个事件。它在注册/下载后立即启动。 完成安装后，最好开始缓存静态资源，因为安装事件只发生一次。
+
+```javascript
+self.addEventListener('install', function(e) {
+e.waitUntil( // waitUntil() from ExtendableEvent
+    caches.open(cacheName).then(function(cache) {
+        console.log('[ServiceWorker] Caching app shell');
+        return cache.addAll(filesToCache);
+    }));
+});
+```
