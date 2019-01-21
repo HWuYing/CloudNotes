@@ -9,7 +9,7 @@
 
 <ul>
     <li>Responsive（响应式）</li>
-    <li>Responsive（响应式）</li>
+    <li>Connectivity-independent （独立连接）</li>
     <li>Responsive（响应式）</li>
     <li>Responsive（响应式）</li>
     <li>Responsive（响应式）</li>
