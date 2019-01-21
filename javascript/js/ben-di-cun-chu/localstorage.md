@@ -63,3 +63,5 @@ if(！window.localStorage){
 运行后的结果如下：
 ![](/assets/728493-20160626105220610-1095267293.png)
 这里要特别说明一下localStorage的使用也是遵循同源策略的，所以不同的网站直接是不能共用相同的localStorage
+
+
