@@ -197,3 +197,4 @@ var json=storage.getItem("data");
 var jsonObj=JSON.parse(json);
 console.log(typeof jsonObj);
 ```
+另外还有一点要注意的是，其他类型读取出来也要进行转换
