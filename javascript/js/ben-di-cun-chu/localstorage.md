@@ -136,3 +136,4 @@ storage.setItem("c",3);
 console.log(storage);
 storage.clear();
 ```
+将localStorage中的某个键值对删除
