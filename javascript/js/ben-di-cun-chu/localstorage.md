@@ -18,7 +18,7 @@
     <li>localStorage本质上是对字符串的读取，如果存储内容多的话会消耗内存空间，会导致页面变卡</li>
     <li>localStorage不能被爬虫抓取到</li>
 </ol>
-localStorage与sessionStorage的唯一一点区别就是localStorage属于永久性存储，而sessionStorage属于当会话结束的时候，sessionStorage中的键值对会被清空
+&emsp;&emsp;localStorage与sessionStorage的唯一一点区别就是localStorage属于永久性存储，而sessionStorage属于当会话结束的时候，sessionStorage中的键值对会被清空
 
 这里我们以localStorage来分析
 
