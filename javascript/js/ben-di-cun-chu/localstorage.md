@@ -167,16 +167,16 @@ for(var i=0;i<storage.length;i++){
 示例：
 ```javascript
 if(!window.localStorage){
-            alert("浏览器支持localstorage");
-        }else{
-            var storage=window.localStorage;
-            var data={
-                name:'xiecanyong',
-                sex:'man',
-                hobby:'program'
-            };
-            var d=JSON.stringify(data);
-            storage.setItem("data",d);
-            console.log(storage.data);
-        }
+    alert("浏览器支持localstorage");
+}else{
+    var storage=window.localStorage;
+    var data={
+        name:'xiecanyong',
+        sex:'man',
+        hobby:'program'
+    };
+    var d=JSON.stringify(data);
+    storage.setItem("data",d);
+    console.log(storage.data);
+}
 ```
