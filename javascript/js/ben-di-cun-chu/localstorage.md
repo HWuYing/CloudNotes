@@ -16,5 +16,6 @@
     <li>目前所有的浏览器中都会把localStorage的值类型限定为string类型，这个在对我们日常比较常见的JSON对象类型需要一些转换</li>
     <li>localStorage在浏览器的隐私模式下面是不可读取的</li>
     <li>localStorage本质上是对字符串的读取，如果存储内容多的话会消耗内存空间，会导致页面变卡</li>
+    <li>localStorage不能被爬虫抓取到</li>
 </ol>
 
