@@ -60,4 +60,6 @@
 
 <ol>
     <li>通过HTTPS提供Web应用程序</li>
+    <li>添加应用程序清单文件</li>
+    <li>通过HTTPS提供Web应用程序</li>
 </ol>
