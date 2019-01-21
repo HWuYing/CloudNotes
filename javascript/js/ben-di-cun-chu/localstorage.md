@@ -8,3 +8,4 @@
     <li>localStorage拓展了cookie的4K限制</li>
     <li>localStorage可以将第一次请求的数据直接存储到本地，这个相当于一个5M大小的针对于前端页面的数据库，相比于cookie可以节约带宽，但是这个却是只有在高版本的浏览器中才支持的</li>
 </ol>
+
