@@ -13,5 +13,5 @@
     <li>App-like（app的样式）</li>
     <li>Fresh （不断更新）</li>
     <li>Safe （安全）</li>
-    <li>Responsive（响应式）</li>
+    <li>Discoverable （可发现）</li>
 </ul>
