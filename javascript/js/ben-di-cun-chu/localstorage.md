@@ -33,11 +33,11 @@ localStorage的浏览器支持情况：
 
 ```javascript
 if(！window.localStorage){
-            alert("浏览器支持localstorage");
-            return false;
-        }else{
-            //主逻辑业务
-        }
+    alert("浏览器支持localstorage");
+    return false;
+}else{
+    //主逻辑业务
+}
 ```
 
 
