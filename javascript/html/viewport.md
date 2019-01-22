@@ -71,3 +71,4 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 ```javascript
 <meta name="viewport" content="width=device-width">
 ```
+下图是这句代码在各大移动端浏览器上的测试结果：
