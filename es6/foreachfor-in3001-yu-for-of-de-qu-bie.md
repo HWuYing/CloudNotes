@@ -20,3 +20,4 @@ for(var index in objArr){
 1.index 值 会是字符串（String）类型
 2.循环不仅会遍历数组元素，还会遍历任意其他自定义添加的属性，如，objArr上面包含自定义属性，objArr.name，那这次循环中也会出现此name属性
 3.某些情况下，上述代码会以随机顺序循环数组
+
