@@ -16,7 +16,7 @@
   * [性能优化](javascript/xing-neng-you-hua.md)
     * [web前端性能优化总结](web/javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
   * [pwa](javascript/pwd.md)
-    * [概述](javascript/pwd/gai-shu.md)
+    * [概述](web/javascript/pwd/gai-shu.md)
   * [兼容](javascript/jian-rong.md)
     * [移动端1px像素](javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
   * [移动端](javascript/html.md)
