@@ -21,7 +21,7 @@ a1[0] === a2[0] // true
 
 对于空位数组， map 并不会去处理，
 
-```
+```javascript
 const arr = [, , ,];
 arr.map(n => {
   console.log(n);
