@@ -8,7 +8,7 @@
     * [作用域链](web/javascript/js/zuo-yong-yu-lian.md)
     * [继承](web/javascript/js/ji-cheng.md)
     * [本地存储](web/javascript/js/ben-di-cun-chu.md)
-      * [localStorage](javascript/js/ben-di-cun-chu/localstorage.md)
+      * [localStorage](web/javascript/js/ben-di-cun-chu/localstorage.md)
       * [sessionStorage](javascript/js/ben-di-cun-chu/sessionstorage.md)
       * [cookie](javascript/js/ben-di-cun-chu/cookie.md)
   * [安全](javascript/an-quan.md)
