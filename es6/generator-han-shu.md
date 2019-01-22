@@ -119,7 +119,7 @@ gen().next()
 
 然后又 Inerator 接口的数据结构，都可用 yield * 的方法，
 
-```
+```javascript
 let read = (function* () {
   yield 'hello';
   yield* 'hello';
