@@ -47,7 +47,7 @@ PI = 3;
 
 当 const 定义指针时，比如
 
-```
+```javascript
 const foo = {};
 foo.prop = 123;
 
