@@ -136,3 +136,5 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 ```
 
 第二种方法
+
+通过setAttribute来改变 
