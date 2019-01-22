@@ -5,7 +5,7 @@
   * [javascript](web/javascript/js.md)
     * [闭包](web/javascript/js/bi-bao.md)
     * [原型链](web/javascript/js/yuan-xing-lian.md)
-    * [作用域链](javascript/js/zuo-yong-yu-lian.md)
+    * [作用域链](web/javascript/js/zuo-yong-yu-lian.md)
     * [继承](javascript/js/ji-cheng.md)
     * [本地存储](javascript/js/ben-di-cun-chu.md)
       * [localStorage](javascript/js/ben-di-cun-chu/localstorage.md)
