@@ -113,4 +113,4 @@ visual viewport宽度 = ideal viewport宽度  / 当前缩放值
 
 当前缩放值 = ideal viewport宽度  / visual viewport宽度
 ```
-
+ps: visual viewport的宽度指的是浏览器可视区域的宽度。
