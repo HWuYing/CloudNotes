@@ -12,7 +12,7 @@
       * [sessionStorage](web/javascript/ben-di-cun-chu/sessionstorage.md)
       * [cookie](web/javascript/ben-di-cun-chu/cookie.md)
   * [安全](web/an-quan.md)
-    * [xss 攻击](web/javascript/an-quan/xss-gong-ji.md)
+    * [xss 攻击](web/an-quan/xss-gong-ji.md)
   * [性能优化](javascript/xing-neng-you-hua.md)
     * [web前端性能优化总结](web/javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
   * [pwa](javascript/pwd.md)
