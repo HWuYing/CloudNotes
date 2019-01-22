@@ -46,14 +46,14 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 
 在苹果的规范中，meta viewport 有6个属性(暂且把content中的那些东西称为一个个属性和值)，如下：
 
-<ol>
+<ul>
     <li>width：控制 viewport 的大小，可以指定的一个值，如 600，或者特殊的值，如 device-width 为设备的宽度（单位为缩放为 100% 时的 CSS 的像素）。</li>
     <li>height：和 width 相对应，指定高度。</li>
     <li>initial-scale：初始缩放比例，也即是当页面第一次 load 的时候缩放比例。</li>
     <li>maximum-scale：允许用户缩放到的最大比例。</li>
     <li>minimum-scale：允许用户缩放到的最小比例。</li>
     <li>user-scalable：用户是否可以手动缩放。</li>
-</ol>
+</ul>
 
 这些属性可以同时使用，也可以单独使用或混合使用，多个属性同时使用时用逗号隔开就行了。
 此外，在安卓中还支持  target-densitydpi  这个私有属性，它表示目标设备的密度等级，作用是决定css中的1px代表多少物理像素
