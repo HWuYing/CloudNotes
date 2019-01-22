@@ -85,11 +85,7 @@ metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + s
 }
 </style>
  <script> 
-
 console.log(typeof ('a'+1))
-
-
-
  </script> 
  </body> 
 </html>
