@@ -34,3 +34,5 @@ for (var word of uniqueWords) {
 3.for-of 循环不仅仅支持数组的遍历。同样适用于很多类似数组的对象
 4.它也支持字符串的遍历
 5.for-of 并不适用于处理原有的原生对象
+
+#####for-of 遍历 Set
