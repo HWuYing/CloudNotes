@@ -108,7 +108,7 @@ function* concat(iter1, iter2) {
 
 如果 yield 后面加 * 并且跟了一个数组，表示数组每一项都是一个单独的 yield，
 
-```
+```javascript
 function* gen(){
   yield* ["a", "b", "c"];
 }
