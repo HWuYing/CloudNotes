@@ -14,7 +14,7 @@ var hw = helloWorldGenerator();
 
 表示该函数有三个状态，分别是 hello，world，和 return（结束时执行），关于函数的调用，和普通函数一样，但是执行后，什么都得不到，必须掉要 next() 方法才能一步一步执行，比如：
 
-```
+```javascript
 hw.next()
 // { value: 'hello', done: false }
 
