@@ -15,4 +15,4 @@ foreach 方法没办法使用 break 语句跳出循环，或者使用return从�
 for(var index in objArr){
     console.log(objArr[index])
 }
-```\
+```
