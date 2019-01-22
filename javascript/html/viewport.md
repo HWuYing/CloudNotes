@@ -26,3 +26,4 @@ devicePixelRatio的测试结果：
 
 &emsp;&emsp;ideal viewport并没有一个固定的尺寸，不同的设备拥有有不同的ideal viewport。所有的iphone的ideal viewport宽度都是320px，无论它的屏幕宽度是320还是640，也就是说，在iphone中，css中的320px就代表iphone屏幕的宽度。
 ![](/assets/300958570879340.png)&emsp;&emsp;![](/assets/300958563683726.png)
+
