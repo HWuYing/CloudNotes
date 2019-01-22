@@ -51,6 +51,6 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
     <li>height：和 width 相对应，指定高度。</li>
     <li>initial-scale：初始缩放比例，也即是当页面第一次 load 的时候缩放比例。</li>
     <li>maximum-scale：允许用户缩放到的最大比例。</li>
-    <li></li>
+    <li>minimum-scale：允许用户缩放到的最小比例。</li>
     <li></li>
 </ol>
