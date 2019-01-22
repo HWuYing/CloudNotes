@@ -103,3 +103,5 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 ```
 
 ###关于meta viewport的更多知识
+
+######1.关于缩放以及initial-scale的默认值
