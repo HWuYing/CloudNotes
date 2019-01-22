@@ -21,7 +21,7 @@
     * [移动端1px像素](javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
   * [移动端](javascript/html.md)
     * [viewport](javascript/html/viewport.md)
-* [函数式编程](han-shu-shi-bian-cheng.md)
+* [函数式编程](函数式编程/README.md)
   * [纯函数](han-shu-shi-bian-cheng/chun-han-shu.md)
 * [network](network.md)
   * [http/https](network/http和https.md)
