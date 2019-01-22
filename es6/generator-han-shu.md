@@ -2,7 +2,7 @@
 
 ES6 提供的异步解决方案，Fenerator 函数是一个状态机，封装了多个内部状态，它有两个关键字，一个是在在 function 关键字前面有 * 标记，第二个是用 yield 来定义不同的内部状态，比如：
 
-```
+```javascript
 function* helloWorldGenerator() {
   yield 'hello';
   yield 'world';
