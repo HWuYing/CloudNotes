@@ -68,7 +68,7 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 ###把当前的viewport宽度设置为 ideal viewport 的宽度
 
 &emsp;&emsp;要得到ideal viewport就必须把默认的layout viewport的宽度设为移动设备的屏幕宽度。因为meta viewport中的width能控制layout viewport的宽度，所以我们只需要把width设为width-device这个特殊的值就行了。
-```javascript
+```html
 <meta name="viewport" content="width=device-width">
 ```
 下图是这句代码在各大移动端浏览器上的测试结果：
