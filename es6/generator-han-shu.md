@@ -36,7 +36,7 @@ next() 的功能就是引导函数一步一步向下执行，直到 return 后�
 
 yield 语句其实就是暂停标志，
 
-```
+```javascript
 function* gen() {
   yield  123 + 456;
 }
