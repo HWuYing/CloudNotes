@@ -29,3 +29,8 @@ for (var word of uniqueWords) {
   console.log(word);
 }
 ```
+1.可以避免所有 for-in 循环的陷阱
+2.不同于 forEach()，可以使用 break, continue 和 return
+3.for-of 循环不仅仅支持数组的遍历。同样适用于很多类似数组的对象
+4.它也支持字符串的遍历
+5.for-of 并不适用于处理原有的原生对象
