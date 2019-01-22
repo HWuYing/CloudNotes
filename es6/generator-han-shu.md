@@ -88,7 +88,7 @@ for (let v of foo()) {
 
 yield 函数后面跟着一个 yield 函数，表示 for of
 
-```
+```javascript
 function* concat(iter1, iter2) {
   yield* iter1;
   yield* iter2;
