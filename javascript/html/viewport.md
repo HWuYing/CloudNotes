@@ -64,3 +64,5 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 特别说明的是，当 target-densitydpi=device-dpi 时， css中的1px会等于物理像素中的1px。
 
 因为这个属性只有安卓支持，并且安卓已经决定要废弃target-densitydpi  这个属性了，所以这个属性我们要避免进行使用。
+
+###把当前的viewport宽度设置为 ideal viewport 的宽度
