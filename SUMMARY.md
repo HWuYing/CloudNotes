@@ -26,6 +26,6 @@
 * [network](network.md)
   * [http/https](network/http和https.md)
     * [缓存](network/http和https/缓存/README.md)
-* [ES6](es6.md)
+* [ES6](es6/README.md)
   * [forEach、for-in、与for-of的区别](es6/forEach、for-in与for-of的区别/README.md)
 
