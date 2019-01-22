@@ -160,4 +160,4 @@ alert(document.documentElement.clientWidth); //弹出600，正常情况应该弹
 <script type="text/javascript">
 alert(document.documentElement.clientWidth); //弹出320，正常情况应该弹出600
 </script>
-111
+```
