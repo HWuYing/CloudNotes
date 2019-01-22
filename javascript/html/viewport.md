@@ -114,3 +114,5 @@ visual viewport宽度 = ideal viewport宽度  / 当前缩放值
 当前缩放值 = ideal viewport宽度  / visual viewport宽度
 ```
 ps: visual viewport的宽度指的是浏览器可视区域的宽度。
+
+&emsp;&emsp;大多数浏览器都符合这个理论，但是安卓上的原生浏览器以及IE有些问题。安卓自带的webkit浏览器只有在 initial-scale = 1 以及没有设置width属性时才是表现正常的，也就相当于这理论在它身上基本没用；而IE则根本不甩initial-scale这个属性，无论你给他设置什么，initial-scale表现出来的效果永远是1。
