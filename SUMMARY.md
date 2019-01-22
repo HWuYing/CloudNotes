@@ -22,7 +22,7 @@
   * [移动端](javascript/html.md)
     * [viewport](javascript/html/viewport.md)
 * [函数式编程](函数式编程/README.md)
-  * [纯函数](han-shu-shi-bian-cheng/chun-han-shu.md)
+  * [纯函数](函数式编程/chun-han-shu.md)
 * [network](network.md)
   * [http/https](network/http和https.md)
     * [缓存](network/http和https/缓存/README.md)
