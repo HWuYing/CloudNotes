@@ -88,3 +88,6 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 
 ![](/assets/300958597123639.png)
 
+测试结果表明 initial-scale=1 也能把当前的viewport宽度变成 ideal viewport 的宽度，但这次轮到了windows phone 上的IE 无论是竖屏还是横屏都把宽度设为竖屏时ideal viewport的宽度。但这点小瑕疵已经无关紧要了。
+
+但如果width 和 initial-scale=1同时出现，并且还出现了冲突呢？比如：
