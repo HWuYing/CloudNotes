@@ -124,3 +124,6 @@ ps: visual viewport的宽度指的是浏览器可视区域的宽度。
 也就是当前的initial-scale默认值应该是 0.33这样子。当你指定了initial-scale的值后，这个默认值就不起作用了。
 
 总之记住这个结论就行了：在iphone和ipad上，无论你给viewport设的宽的是多少，如果没有指定默认的缩放值，则iphone和ipad会自动计算这个缩放值，以达到当前页面不会出现横向滚动条(或者说viewport的宽度就是屏幕的宽度)的目的。
+![](/assets/300959005874738.png)![](/assets/300959005874738.png)
+
+
