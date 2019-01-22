@@ -128,3 +128,5 @@ ps: visual viewport的宽度指的是浏览器可视区域的宽度。
 #####2.动态改变meta viewport标签
 
 第一种方法
+
+可以使用document.write来动态输出meta viewport标签，例如：
