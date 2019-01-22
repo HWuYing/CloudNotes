@@ -20,7 +20,7 @@
   * [兼容](javascript/jian-rong.md)
     * [移动端1px像素](web/javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
   * [移动端](web/javascript/html.md)
-    * [viewport](javascript/html/viewport.md)
+    * [viewport](web/javascript/html/viewport.md)
 * [函数式编程](函数式编程/README.md)
   * [纯函数](函数式编程/chun-han-shu.md)
 * [network](network.md)
