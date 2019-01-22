@@ -131,7 +131,7 @@ read.next().value // "h"
 
 **取出嵌套数组的成员**
 
-```
+```javascript
 function* iterTree(tree) {
   if (Array.isArray(tree)) {
     for(let i=0; i < tree.length; i++) {
