@@ -14,7 +14,7 @@
   * [安全](javascript/an-quan.md)
     * [xss 攻击](web/javascript/an-quan/xss-gong-ji.md)
   * [性能优化](javascript/xing-neng-you-hua.md)
-    * [web前端性能优化总结](javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
+    * [web前端性能优化总结](web/javascript/xing-neng-you-hua/webqian-duan-xing-neng-you-hua-zong-jie.md)
   * [pwa](javascript/pwd.md)
     * [概述](javascript/pwd/gai-shu.md)
   * [兼容](javascript/jian-rong.md)
