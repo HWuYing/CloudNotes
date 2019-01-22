@@ -46,4 +46,5 @@ metaEl.setAttribute('name', 'viewport');
 metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
 ```
 
-3.伪类+transform实现 
+3.伪类+transform实现
+原理：是把原先元素的 border 去掉，然后利用 :before 或者 :after 重做 border ，并 transform 的 scale 缩小一半，原先的元素相对定位，新做的 border 绝对定位。 
