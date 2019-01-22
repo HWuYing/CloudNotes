@@ -2,7 +2,7 @@
 
 ## 数组的空位
 
-```
+```javascript
 const a1 = [undefined, undefined, undefined];
 const a2 = [, , ,];
 
