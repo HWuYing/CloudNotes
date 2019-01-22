@@ -130,3 +130,7 @@ ps: visual viewport的宽度指的是浏览器可视区域的宽度。
 第一种方法
 
 可以使用document.write来动态输出meta viewport标签，例如：
+
+```html
+document.write('<meta name="viewport" content="width=device-width,initial-scale=1">')
+```
