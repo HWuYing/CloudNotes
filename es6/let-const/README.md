@@ -20,7 +20,7 @@ for 很适合 let，
 
 ### 暂时性死区，申明即绑定
 
-```
+```javascript
 var tmp = 123;
 
 if (true) {
