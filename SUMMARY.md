@@ -29,6 +29,6 @@
 * [ES6](es6.md)
   * [forEach、for-in、与for-of的区别](es6/foreachfor-in3001-yu-for-of-de-qu-bie.md)
   * [Class](es6/class.md)
-  * ECMAScript 规格
+  * [ECMAScript 规格](es6/ecmascript-gui-ge.md)
   * [Generator 函数](es6/generator-han-shu.md)
 
