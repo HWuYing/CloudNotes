@@ -82,3 +82,4 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 ```html
 <meta name="viewport" content="initial-scale=1">
 ```
+这句代码也能达到和前一句代码一样的效果，也可以把当前的的viewport变为 ideal viewport。
