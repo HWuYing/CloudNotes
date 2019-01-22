@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [web](javascript.md)
+* [web](web/README.md)
   * [javascript](javascript/js.md)
     * [闭包](javascript/js/bi-bao.md)
     * [原型链](javascript/js/yuan-xing-lian.md)
