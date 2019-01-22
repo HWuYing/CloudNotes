@@ -23,7 +23,7 @@ devicePixelRatio = 物理像素 / 独立像素
 1.rem解决：
 ```javascript
 ////根据屏幕大小及dpi调整缩放和大小 
-function () {
+(function () {
         var scale = 1.0;
         var ratio = 1;
         if (window.devicePixelRatio >= 2) {
