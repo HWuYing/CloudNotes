@@ -35,3 +35,4 @@ devicePixelRatio = 物理像素 / 独立像素
         document.documentElement.style.fontSize = 50 * ratio + "px";
 })();
 ```
+2.flexible.js 
