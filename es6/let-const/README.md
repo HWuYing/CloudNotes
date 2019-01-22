@@ -35,7 +35,7 @@ if (true) {
 
 基本用法
 
-```
+```javascript
 const PI = 3.1415;
 PI // 3.1415
 
