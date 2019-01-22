@@ -51,3 +51,4 @@ for (var [key, value] of phoneBookMap) {
   console.log(key + "'s phone number is: " + value);
 }
 ```
+Map是键值对组成，需要用到 Es6新特性解构
