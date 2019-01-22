@@ -30,8 +30,7 @@ function () {
             scale *= 0.5;
             ratio *= 2;
         }
-        var text = '<meta name="viewport" content="initial-scale=' + scale + ', maximum-scale=' + scale + ',' + ' minimum-scale=' + scale + ', width=device-width,' + ' user-scalable=no" />
-';
+        var text = '<meta name="viewport" content="initial-scale=' + scale + ', maximum-scale=' + scale + ',' + ' minimum-scale=' + scale + ', width=device-width,' + ' user-scalable=no" />';
         document.write(text);
         document.documentElement.style.fontSize = 50 * ratio + "px";
     })();
