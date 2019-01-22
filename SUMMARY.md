@@ -6,7 +6,7 @@
     * [闭包](web/javascript/bi-bao.md)
     * [原型链](web/javascript/yuan-xing-lian.md)
     * [作用域链](web/javascript/zuo-yong-yu-lian.md)
-    * [继承](web/javascript/js/ji-cheng.md)
+    * [继承](web/javascript/ji-cheng.md)
     * [本地存储](web/javascript/js/ben-di-cun-chu.md)
       * [localStorage](web/javascript/js/ben-di-cun-chu/localstorage.md)
       * [sessionStorage](web/javascript/js/ben-di-cun-chu/sessionstorage.md)
