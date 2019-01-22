@@ -35,4 +35,6 @@ devicePixelRatio的测试结果：
 
 我们在开发移动设备的网站时，最常见的的一个动作就是把下面这个东西复制到我们的head标签中：
 
-
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+```
