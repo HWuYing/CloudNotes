@@ -4,7 +4,7 @@
 * [web](web/README.md)
   * [javascript](web/javascript/js.md)
     * [闭包](web/javascript/bi-bao.md)
-    * [原型链](web/javascript/js/yuan-xing-lian.md)
+    * [原型链](web/javascript/yuan-xing-lian.md)
     * [作用域链](web/javascript/js/zuo-yong-yu-lian.md)
     * [继承](web/javascript/js/ji-cheng.md)
     * [本地存储](web/javascript/js/ben-di-cun-chu.md)
