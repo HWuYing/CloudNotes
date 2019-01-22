@@ -163,3 +163,5 @@ alert(document.documentElement.clientWidth); //弹出320，正常情况应该弹
 ```
 
 测试的手机ideal viewport 宽度为320px，第一次弹出的值是600,但这个值应该是第行meta标签的结果啊，然后第二次弹出的值是320，这才是第一行meta标签所达到的效果啊，所以在安卓2.3(或许是所有2.x版本中)的自带浏览器中，对meta viewport标签进行覆盖或更改，会出现让人非常迷糊的结果
+
+####结语
