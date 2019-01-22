@@ -36,3 +36,11 @@ for (var word of uniqueWords) {
 5.for-of 并不适用于处理原有的原生对象
 
 #####for-of 遍历 Set
+
+```javascript
+var uniqueWords = new Set(words);
+
+for (var word of uniqueWords) {
+  console.log(word);
+}
+```
