@@ -134,3 +134,5 @@ ps: visual viewport的宽度指的是浏览器可视区域的宽度。
 ```html
 document.write('<meta name="viewport" content="width=device-width,initial-scale=1">')
 ```
+
+第二种方法
