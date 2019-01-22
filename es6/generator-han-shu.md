@@ -180,7 +180,7 @@ obj.c // 3
 
 顺便可以将 F 改成函数的方法，
 
-```
+```javascript
 function* gen() {
   this.a = 1;
   yield this.b = 2;
