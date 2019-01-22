@@ -148,3 +148,16 @@ mvp.setAttribute('content','width=480');
 ```
 
 安卓2.3自带浏览器上的一个bug
+```html
+<meta name="viewport" content="width=device-width">
+
+<script type="text/javascript">
+alert(document.documentElement.clientWidth); //弹出600，正常情况应该弹出320
+</script>
+
+<meta name="viewport" content="width=600">
+
+<script type="text/javascript">
+alert(document.documentElement.clientWidth); //弹出320，正常情况应该弹出600
+</script>
+111
