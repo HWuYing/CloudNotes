@@ -158,7 +158,7 @@ for(let x of iterTree(tree)) {
 
 因为 yield 函数不支持 this，但是可以通过气体方法将 this 帮到其他对象上面，比如：
 
-```
+```javascript
 function* F() {
   this.a = 1;
   yield this.b = 2;
