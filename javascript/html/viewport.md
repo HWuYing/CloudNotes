@@ -146,3 +146,5 @@ var mvp = document.getElementById('testViewport');
 mvp.setAttribute('content','width=480');
 </script>
 ```
+
+安卓2.3自带浏览器上的一个bug
