@@ -54,3 +54,5 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
     <li>minimum-scale：允许用户缩放到的最小比例。</li>
     <li>user-scalable：用户是否可以手动缩放。</li>
 </ol>
+
+这些属性可以同时使用，也可以单独使用或混合使用，多个属性同时使用时用逗号隔开就行了。
