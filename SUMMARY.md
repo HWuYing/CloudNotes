@@ -15,7 +15,7 @@
     * [xss 攻击](web/安全/xss-gong-ji.md)
   * [性能优化](web/性能优化/README.md)
     * [web前端性能优化总结](web/性能优化/webqian-duan-xing-neng-you-hua-zong-jie.md)
-  * [pwa](web/pwd.md)
+  * [pwa](web/pwd/README.md)
     * [概述](web/pwd/gai-shu.md)
   * [兼容](javascript/jian-rong.md)
     * [移动端1px像素](web/javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
