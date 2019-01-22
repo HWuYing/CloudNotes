@@ -30,4 +30,5 @@
   * [forEach、for-in、与for-of的区别](es6/foreachfor-in3001-yu-for-of-de-qu-bie.md)
   * [Class](es6/class.md)
   * ECMAScript 规格
+  * [Generator 函数](es6/generator-han-shu.md)
 
