@@ -127,3 +127,4 @@ ps: visual viewport的宽度指的是浏览器可视区域的宽度。
 ![](/assets/300959005874738.png)![](/assets/300959024307908.png)![](/assets/300959031187064.png)
 #####2.动态改变meta viewport标签
 
+第一种方法
