@@ -90,3 +90,4 @@ console.log(typeof ('a'+1))
  </body> 
 </html>
 ```
+![](/assets/20180506193007963.png)
