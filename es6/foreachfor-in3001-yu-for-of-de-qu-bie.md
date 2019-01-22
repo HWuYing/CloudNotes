@@ -46,3 +46,8 @@ for (var word of uniqueWords) {
 ```
 
 #####for-of 遍历 Map
+```javascript
+for (var [key, value] of phoneBookMap) {
+  console.log(key + "'s phone number is: " + value);
+}
+```
