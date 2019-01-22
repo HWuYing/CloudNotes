@@ -58,7 +58,7 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 这些属性可以同时使用，也可以单独使用或混合使用，多个属性同时使用时用逗号隔开就行了。
 此外，在安卓中还支持  target-densitydpi  这个私有属性，它表示目标设备的密度等级，作用是决定css中的1px代表多少物理像素
 <ul>
-    <li>target-densitydpi ：值可以为一个数值或 high-dpi 、 medium-dpi、 low-dpi、 device-dpi 这几个字符串中的一个</li>
+    <li>target-densitydpi ：</li>
 </ul>
 
 特别说明的是，当 target-densitydpi=device-dpi 时， css中的1px会等于物理像素中的1px。
