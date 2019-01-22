@@ -107,3 +107,9 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 ######1.关于缩放以及initial-scale的默认值
 
 &emsp;&emsp;首先我们先来讨论一下缩放的问题，前面已经提到过，缩放是相对于ideal viewport来缩放的，缩放值越大，当前viewport的宽度就会越小，反之亦然。例如在iphone中，ideal viewport的宽度是320px，如果我们设置 initial-scale=2 ，此时viewport的宽度会变为只有160px了，这也好理解，放大了一倍嘛，就是原来1px的东西变成2px了，但是1px变为2px并不是把原来的320px变为640px了，而是在实际宽度不变的情况下，1px变得跟原来的2px的长度一样了，所以放大2倍后原来需要320px才能填满的宽度现在只需要160px就做到了。因此，我们可以得出一个公式：
+
+```javascript
+visual viewport宽度 = ideal viewport宽度  / 当前缩放值
+
+当前缩放值 = ideal viewport宽度  / visual viewport宽度
+```
