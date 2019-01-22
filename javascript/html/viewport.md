@@ -83,3 +83,5 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 <meta name="viewport" content="initial-scale=1">
 ```
 这句代码也能达到和前一句代码一样的效果，也可以把当前的的viewport变为 ideal viewport。
+
+要想清楚这件事情，首先你得弄明白这个缩放是相对于什么来缩放的，因为这里的缩放值是1，也就是没缩放，但却达到了 ideal viewport 的效果，所以，那答案就只有一个了，缩放是相对于 ideal viewport来进行缩放的，当对ideal viewport进行100%的缩放，也就是缩放值为1的时候，不就得到了 ideal viewport吗？事实证明，的确是这样的。下图是各大移动端的浏览器当设置了<meta name="viewport" content="initial-scale=1"> 后是否能把当前的viewport宽度变成 ideal viewport 的宽度的测试结果
