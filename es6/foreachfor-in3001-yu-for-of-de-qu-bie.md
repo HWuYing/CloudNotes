@@ -52,3 +52,5 @@ for (var [key, value] of phoneBookMap) {
 }
 ```
 Map是键值对组成，需要用到 Es6新特性解构
+
+#####for-of 遍历原生对象
