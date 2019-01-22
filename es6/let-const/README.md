@@ -4,7 +4,7 @@
 
 let 和 var 很像，但只在该代码块有效。
 
-```
+```javascript
 {
   let a = 10;
   var b = 1;
