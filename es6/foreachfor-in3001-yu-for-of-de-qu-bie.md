@@ -22,3 +22,10 @@ for(var index in objArr){
 3.某些情况下，上述代码会以随机顺序循环数组
 
 #####for-of介绍
+```javascript
+var uniqueWords = new Set(words);
+
+for (var word of uniqueWords) {
+  console.log(word);
+}
+```
