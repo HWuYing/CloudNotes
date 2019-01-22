@@ -66,7 +66,7 @@ myIterable[Symbol.iterator] = function* () {
 
 此时不用遍历
 
-```
+```javascript
 function *foo() {
   yield 1;
   yield 2;
