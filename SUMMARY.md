@@ -18,7 +18,7 @@
   * [pwa](javascript/pwd.md)
     * [概述](web/javascript/pwd/gai-shu.md)
   * [兼容](javascript/jian-rong.md)
-    * [移动端1px像素](javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
+    * [移动端1px像素](web/javascript/jian-rong/yi-dong-duan-1px-xiang-su.md)
   * [移动端](javascript/html.md)
     * [viewport](javascript/html/viewport.md)
 * [函数式编程](函数式编程/README.md)
