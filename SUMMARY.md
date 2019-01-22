@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [web](web/README.md)
   * [javascript](web/javascript/js.md)
-    * [闭包](javascript/js/bi-bao.md)
+    * [闭包](web/javascript/js/bi-bao.md)
     * [原型链](javascript/js/yuan-xing-lian.md)
     * [作用域链](javascript/js/zuo-yong-yu-lian.md)
     * [继承](javascript/js/ji-cheng.md)
