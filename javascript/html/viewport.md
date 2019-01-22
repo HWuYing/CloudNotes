@@ -80,5 +80,5 @@ meta viewport 标签首先是由苹果公司在其safari浏览器中引入的，
 
 可是你肯定不知道
 ```javascript
-&emsp;&emsp;
+<meta name="viewport" content="initial-scale=1">
 ```
