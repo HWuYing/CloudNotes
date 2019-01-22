@@ -24,8 +24,8 @@
 * [函数式编程](han-shu-shi-bian-cheng.md)
   * [纯函数](han-shu-shi-bian-cheng/chun-han-shu.md)
 * [network](network.md)
-  * [http/https](network/httphttps.md)
-    * [缓存](network/httphttps/huan-cun.md)
+  * [http/https](network/http和https.md)
+    * [缓存](network/http和https/缓存/README.md)
 * [ES6](es6.md)
   * [forEach、for-in、与for-of的区别](es6/forEach、for-in与for-of的区别/README.md)
 
