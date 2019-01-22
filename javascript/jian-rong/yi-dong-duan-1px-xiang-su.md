@@ -48,3 +48,49 @@ metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + s
 
 3.伪类+transform实现
 原理：是把原先元素的 border 去掉，然后利用 :before 或者 :after 重做 border ，并 transform 的 scale 缩小一半，原先的元素相对定位，新做的 border 绝对定位。 
+```html
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <meta charset="UTF-8"> 
+ <title>test</title> 
+ </head> 
+ <body> 
+<div class="box-shadow-1px scale">box-shadow-1px</div>
+<style>
+.box-shadow-1px {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.scale{
+  position: relative;
+  margin-bottom: 20px;
+  border:none;
+}
+.scale:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200%;
+  height: 200%;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+</style>
+ <script> 
+
+console.log(typeof ('a'+1))
+
+
+
+ </script> 
+ </body> 
+</html>
+```
