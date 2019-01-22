@@ -21,3 +21,6 @@ devicePixelRatio = 物理像素 / 独立像素
 ####解决方案 
 
 1.rem解决：
+```javascript
+////根据屏幕大小及dpi调整缩放和大小 
+```
