@@ -51,7 +51,7 @@ a.next();
 
 配合 iterator 更好，next 函数，
 
-```
+```javascript
 var myIterable = {};
 myIterable[Symbol.iterator] = function* () {
   yield 1;
