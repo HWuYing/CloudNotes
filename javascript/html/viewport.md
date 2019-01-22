@@ -174,5 +174,4 @@ alert(document.documentElement.clientWidth); //弹出320，正常情况应该弹
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 ```
