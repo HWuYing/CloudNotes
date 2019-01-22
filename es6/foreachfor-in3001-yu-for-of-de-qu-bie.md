@@ -54,3 +54,9 @@ for (var [key, value] of phoneBookMap) {
 Map是键值对组成，需要用到 Es6新特性解构
 
 #####for-of 遍历原生对象
+```javascript
+// 输出对象自身可以枚举的值
+for (var key of Object.keys(someObject)) {
+  console.log(key + ": " + someObject[key]);
+}
+```
