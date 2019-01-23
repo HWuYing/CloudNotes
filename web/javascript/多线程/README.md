@@ -60,3 +60,4 @@ worker.onmessage = function (event) { ... };
 ```javascript
 worker.postMessage(data);
 ```
+（4）（worker.js）线程文件中返回结果给主页面
