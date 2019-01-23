@@ -50,4 +50,13 @@ for (var i = 0; i < messages.length; i++) {
 ```
 
 这段代码的运算结果是显而易见的，但是如果换成下面这种方式呢？
+```javascript
+var messages = ["Meow!", "I'm a talking cat!", "Callbacks are fun!"];
+
+for (var i = 0; i < messages.length; i++) {
+  setTimeout(function () {
+    cat.say(messages[i]);
+  }, i * 1500);
+}
+```
 
