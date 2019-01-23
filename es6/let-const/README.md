@@ -1,4 +1,4 @@
-## let和const关键字的使用
+## 类语法let和const
 
 ### 基本用法
 
