@@ -73,3 +73,5 @@ onmessage = function(event){
     postMessage(result);
 }
 ```
+
+###共享线程 Shared Worker
