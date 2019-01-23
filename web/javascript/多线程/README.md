@@ -7,3 +7,5 @@
 
 
 ###Concurrent.Thread.js
+
+Concurrent.Thread.js库是利用setTimeout和setInterval方法来模拟线程的概念。并行执行任务。
