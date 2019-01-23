@@ -69,5 +69,5 @@ for (var i = 0; i < messages.length; i++) {
 这两者的主要区别是：
 
 <ul>
-  <li><font size=4>let变量是区域变量</font>：let定义的变量仅限于局部区块内，而不是整个函数体内。所以使用let就可避免前述的变量共享问题。</li>
+  <li><font size=6>let变量是区域变量</font>：let定义的变量仅限于局部区块内，而不是整个函数体内。所以使用let就可避免前述的变量共享问题。</li>
 </ul>
