@@ -62,5 +62,5 @@ for (var i = 0; i < messages.length; i++) {
 
 结果是连续三个undefined？！原因就是变量的共享问题。仅有的变量 i 被循环体以及所有timeout回调共享了，其结果就是当循环结束时i=3，所以使用messages[3]作为输出会显示undefined，因为没有定义这个元素。如果要解决这个问题，有好几种方法，详见
 
-使用let代替var
+#####使用let代替var
 
