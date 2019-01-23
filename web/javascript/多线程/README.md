@@ -49,3 +49,5 @@ WebWork能做什么？
 ###专用线程：Dedicated Worker
 
 （1）.当然是创建线程
+···javascript
+```
