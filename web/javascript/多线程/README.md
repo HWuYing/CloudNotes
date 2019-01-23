@@ -50,5 +50,5 @@ WebWork能做什么？
 
 （1）.当然是创建线程
 ```javascript
-
+var worker = new Worker("worker.js");
 ```
