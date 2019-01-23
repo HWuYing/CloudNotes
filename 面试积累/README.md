@@ -12,9 +12,6 @@
 8、浏览器渲染过程， dom tree, css tree , render tree , 词法分析，从上到下
         
 9、css 盒模型
-        标准盒模型：allWidth = contentWidth + padding + border + margin;
-        怪异盒模型：allWidth = contentWidth + margin; ( contentWidth = viewWidth + padding + border)
-        box-sizing : content-box |. border-box
 
 10、http://www.cnblogs.com/Maculish/p/5228948.html
 11、 sass，less
