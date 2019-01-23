@@ -52,4 +52,4 @@ WebWork能做什么？
 ```javascript
 var worker = new Worker("worker.js");
 ```
-（2）.为了在页面主程序接收从多线程传递过来的消息，我们需要使用多线程的 onmessage 事件处理器，定义 onmessage 的实例代码如下：
+（2）为了在页面主程序接收从多线程传递过来的消息，我们需要使用多线程的 onmessage 事件处理器，定义 onmessage 的实例代码如下：
