@@ -102,3 +102,5 @@ const theFairest;  // SyntaxError, you troublemaker
 ```
 
 #####如何启用let和const?
+
+请使用ES6编译器，例如Babel,Traceur或者TypeScript。io.js可在strict模式下使用；node.js与之类似，但是需要启用harmony选项。
