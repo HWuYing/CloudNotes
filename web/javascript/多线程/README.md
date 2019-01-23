@@ -52,3 +52,4 @@ WebWork能做什么？
 ```javascript
 var worker = new Worker("worker.js");
 ```
+
