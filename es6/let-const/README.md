@@ -74,3 +74,10 @@ for (var i = 0; i < messages.length; i++) {
   <li>for(let x…)形式的循环在遍历时会产生新的x：这是一个很美妙的地方。它是意思是如果一个for (let...)循环中包含结束，例如前述的talking cat例子，那么每个结束会得到不同的变量输出，而不是都使用相同的变量。所以也就解决了变量共享的问题。此外，该特性对for-of，for-in都是适用的。</li>
   <li>在使用let声明变量前使用变量会出错：例如这些编写的话，将会出现引用错误： </li>
 </ul>
+```javascript
+function update() {
+  console.log("current time:", t);  // ReferenceError
+  ...
+  let t = readTachymeter();
+}
+```
