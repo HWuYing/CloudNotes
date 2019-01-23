@@ -81,3 +81,6 @@ function update() {
   let t = readTachymeter();
 }
 ```
+<ol>
+  <li>重复使用let声明变量会导致语法错误。</li>
+</ol>
