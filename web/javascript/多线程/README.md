@@ -9,3 +9,5 @@
 ###Concurrent.Thread.js
 
 Concurrent.Thread.js库是利用setTimeout和setInterval方法来模拟线程的概念。并行执行任务。
+
+主要是为了解决浏览器死卡的现象，当一个函数执行非常浪费时间和内存的时候，给另外开辟一个线程。因为javascript是单线程，会阻塞。这时候我们引入这个库文件，可以使代码不阻塞哦，应用方法主要是create方法创建一个单线程。
