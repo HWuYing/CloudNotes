@@ -33,3 +33,15 @@ Concurrent.Thread.create(function(){
 &emsp;&emsp;js是单线程的去跑代码，比如如果做一个循环从0到一个很大的数字相加然后输出，浏览器可能会假死（无响应状态）。但是用webwork以后，就可以非常方便的进行渲染网页的同时，计算这个数据。在 HTML5 中提出了工作线程（Web Worker）的概念，并且规范出 Web Worker 的三大主要特征：能够长时间运行（响应），理想的启动性能以及理想的内存消耗。Web Worker 允许开发人员编写能够长时间运行而不被用户所中断的后台程序，去执行事务或者逻辑，并同时保证页面对用户的及时响应。
 
 WebWork能做什么？
+
+1.可以加载一个JS进行大量的复杂计算而不挂起主进程，并通过postMessage，onmessage进行通信, 在主线程与子线程间进行通信，使用的是线程对象的postMessage和onmessage方法。不管是谁向谁发数据，发送发使用的都是postMessage方法，接收方都是使用onmessage方法接收数据。postMessage只有一个参数，那就是传递的数据，onmessage也只有一个参数，假设为event，则通过event.data获取收到的数据。
+
+　　2.可以在worker中通过importScripts(url)加载另外的脚本文件，即多个js文件
+
+　　3.可以使用 setTimeout(), clearTimeout(), setInterval(), and clearInterval()：定时器可以使用线程 
+
+　　4.可以使用XMLHttpRequest来发送请求，使用AJAX
+
+　　5.可以访问navigator的部分属性：可以在localStorage和sessionStorage
+
+　　下面来具体说明一下webwork的专用线程使用步骤。
