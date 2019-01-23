@@ -45,3 +45,5 @@ WebWork能做什么？
 5.可以访问navigator的部分属性：可以在localStorage和sessionStorage
 
 下面来具体说明一下webwork的专用线程使用步骤。
+
+###专用线程：Dedicated Worker
