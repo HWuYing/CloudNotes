@@ -100,3 +100,5 @@ MAX_CAT_SIZE_KG++; // nice try, but still a SyntaxError
 ```javascript
 const theFairest;  // SyntaxError, you troublemaker
 ```
+
+#####如何启用let和const?
