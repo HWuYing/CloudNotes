@@ -56,3 +56,4 @@ var worker = new Worker("worker.js");
 ```javascript
 worker.onmessage = function (event) { ... };
 ```
+（3）将数据传给线程
