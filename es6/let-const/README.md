@@ -21,3 +21,17 @@ function runTowerExperiment(tower, startTime) {
 }
 ```
 如果要增加一个用于检测保龄球速度的功能，可能会这样写：
+```javascript
+function runTowerExperiment(tower, startTime) {
+  var t = startTime;
+
+  tower.on("tick", function () {
+    ... code that uses t ...
+    if (bowlingBall.altitude() <= 0) {
+      var t = readTachymeter();
+      ...
+    }
+  });
+  ... more code ...
+}
+```
