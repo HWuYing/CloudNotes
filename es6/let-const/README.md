@@ -97,3 +97,6 @@ MAX_CAT_SIZE_KG++; // nice try, but still a SyntaxError
 ```
 
 同样地，定义的同时不对常量赋值也是一个语法错误：
+```javascript
+const theFairest;  // SyntaxError, you troublemaker
+```
