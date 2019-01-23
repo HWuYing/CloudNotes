@@ -28,3 +28,4 @@ Concurrent.Thread.create(function(){
 
 这是理解Concurrent.Thread.js库应用的最简单方法。Concurrent.Thread提供了一个应用JavaScript 的异步通信方式实现的定制通信库。类似于AJAX的原理，用get或者post方法发送和响应数据。具体参考可以穿越链接http://www.cnblogs.com/0banana0/archive/2011/06/01/2067402.html，这里可以看到更详细的解释。
 
+###WebWork
