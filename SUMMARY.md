@@ -22,7 +22,6 @@
   * [html](web/html/README.md)
     * [viewport](web/html/viewport/README.md)
   * [多线程](web/多线程/README.md)
-    
 * [函数式编程](函数式编程/README.md)
   * [纯函数](函数式编程/chun-han-shu.md)
 * [network](network/README.md)
