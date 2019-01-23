@@ -20,3 +20,4 @@ function runTowerExperiment(tower, startTime) {
   ... more code ...
 }
 ```
+如果要增加一个用于检测保龄球速度的功能，可能会这样写：
