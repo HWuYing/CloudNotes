@@ -47,3 +47,5 @@ WebWork能做什么？
 下面来具体说明一下webwork的专用线程使用步骤。
 
 ###专用线程：Dedicated Worker
+
+（1）.当然是创建线程
