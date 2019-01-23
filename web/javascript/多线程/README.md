@@ -36,12 +36,12 @@ WebWork能做什么？
 
 1.可以加载一个JS进行大量的复杂计算而不挂起主进程，并通过postMessage，onmessage进行通信, 在主线程与子线程间进行通信，使用的是线程对象的postMessage和onmessage方法。不管是谁向谁发数据，发送发使用的都是postMessage方法，接收方都是使用onmessage方法接收数据。postMessage只有一个参数，那就是传递的数据，onmessage也只有一个参数，假设为event，则通过event.data获取收到的数据。
 
-　　2.可以在worker中通过importScripts(url)加载另外的脚本文件，即多个js文件
+2.可以在worker中通过importScripts(url)加载另外的脚本文件，即多个js文件
 
-　　3.可以使用 setTimeout(), clearTimeout(), setInterval(), and clearInterval()：定时器可以使用线程 
+3.可以使用 setTimeout(), clearTimeout(), setInterval(), and clearInterval()：定时器可以使用线程 
 
-　　4.可以使用XMLHttpRequest来发送请求，使用AJAX
+4.可以使用XMLHttpRequest来发送请求，使用AJAX
 
-　　5.可以访问navigator的部分属性：可以在localStorage和sessionStorage
+5.可以访问navigator的部分属性：可以在localStorage和sessionStorage
 
-　　下面来具体说明一下webwork的专用线程使用步骤。
+下面来具体说明一下webwork的专用线程使用步骤。
