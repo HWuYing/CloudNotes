@@ -1,4 +1,4 @@
-1、js 是单线程，如何实现多线程 （web worker）
+1、js 是单线程，如何实现多线程
 
 2、有没有看过react经过webpack打包之后的JS文件
 
