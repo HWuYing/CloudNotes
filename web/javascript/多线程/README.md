@@ -23,3 +23,5 @@ Concurrent.Thread.create(function(){
     };
 });
 ```
+
+这么就可以在浏览器上边点击div有效果，同时console也在一直不停的打印数据。各忙各的。
