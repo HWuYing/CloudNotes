@@ -81,7 +81,7 @@ function update() {
   let t = readTachymeter();
 }
 ```
-<ol>
+<ul>
   <li>重复使用let声明变量会导致语法错误。</li>
-</ol>
+</ul>
 该约束是能帮忙检查出一些粗心大意的问题。
