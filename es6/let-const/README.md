@@ -66,3 +66,4 @@ for (var i = 0; i < messages.length; i++) {
 
 为了解决向后兼容的编码问题，Brendan Eich引入了关键字let。当你要进行全局搜索的时候，如果之前使用var来定义变量，那么会导致编码不能连续。所以在ES6里，请尝试使用let而不是var。
 
+这两者的主要区别是：
