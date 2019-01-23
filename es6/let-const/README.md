@@ -89,3 +89,9 @@ function update() {
 #####使用const
 
 类似于其它语言，ES6中可使用const进行常量定义；如果尝试对已经定义的常量进行赋值，将会引起语法错误：
+```javascript
+const MAX_CAT_SIZE_KG = 3000; // 
+
+MAX_CAT_SIZE_KG = 5000; // SyntaxError
+MAX_CAT_SIZE_KG++; // nice try, but still a SyntaxError
+```
