@@ -14,8 +14,8 @@
 9、css 盒模型
 
 10、http://www.cnblogs.com/Maculish/p/5228948.html
+
 11、 sass，less
-        定义变量、规则嵌套、定义函数、混合指令、引入样式文件
 
 12、 html5，语义化
         Html5：新增了 块级标签，web worker，视频、音频、缓存（manifset）、表单校验、画布
