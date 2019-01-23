@@ -95,3 +95,5 @@ const MAX_CAT_SIZE_KG = 3000; //
 MAX_CAT_SIZE_KG = 5000; // SyntaxError
 MAX_CAT_SIZE_KG++; // nice try, but still a SyntaxError
 ```
+
+同样地，定义的同时不对常量赋值也是一个语法错误：
