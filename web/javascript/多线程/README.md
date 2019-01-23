@@ -61,3 +61,15 @@ worker.onmessage = function (event) { ... };
 worker.postMessage(data);
 ```
 （4）（worker.js）线程文件中返回结果给主页面
+```javascript
+onmessage = function(event){
+    var num = event.data;
+    var result = 0;
+    for(var i=0; i<num; i++){
+        result += i;
+    }
+ 
+    // 向线程创建源送回消息
+    postMessage(result);
+}
+```
