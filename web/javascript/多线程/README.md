@@ -57,4 +57,6 @@ var worker = new Worker("worker.js");
 worker.onmessage = function (event) { ... };
 ```
 （3）将数据传给线程
+```javascript
 worker.postMessage(data);
+```
