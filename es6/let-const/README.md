@@ -41,4 +41,11 @@ function runTowerExperiment(tower, startTime) {
 #####问题二：变量在循环体中的共享
 
 请先看下面：
+```javascript
+var messages = ["Hi!", "I'm a web page!", "alert() is fun!"];
+
+for (var i = 0; i < messages.length; i++) {
+  alert(messages[i]);
+}
+```
 
