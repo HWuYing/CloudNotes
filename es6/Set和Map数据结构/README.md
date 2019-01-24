@@ -196,8 +196,10 @@ console.log(map.size); //0
 
 与Set的初始化一样，Map也可以用数组来初始化Map，该数组中的每一个数据项也是数组，数组的第一个数据项代表键值对的键，第二个数据项是键值对的值：
 
+```javascript
 //使用数组来创建Map
 let map = new Map([['title','hello world'],['year','2018']]);
 console.log(map.has('title')); //true
 console.log(map.has('year')); //true
 console.log(map.size); //2
+```
