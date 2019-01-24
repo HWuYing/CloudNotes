@@ -224,3 +224,4 @@ let map = new Map([['title','hello world'],['year','2018']]);
 
 #####Weak Map的操作
 
+1、Weak Map的初始化
