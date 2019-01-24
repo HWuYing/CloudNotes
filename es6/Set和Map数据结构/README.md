@@ -153,3 +153,4 @@ console.log(set.has(key)); //false
 5、Weak Set没有size属性；
 
 ####ES6中的Map
+
