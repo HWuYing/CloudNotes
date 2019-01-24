@@ -158,3 +158,10 @@ ES6中提供了Map数据结构，能够存放键值对，其中，键的去重�
 #####对Map的操作
 
 1、使用set()方法可以给Map添加键值对
+```javascript
+let map = new Map();
+ map.set('title','hello world');
+ map.set('year','2018');
+ 
+ console.log(map.size); //2
+ ```
