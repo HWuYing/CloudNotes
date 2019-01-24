@@ -91,4 +91,22 @@ operation.iterate(set);
 输出：1 1 2 2 3 3
 ```
 如果回调函数使用箭头函数的话，就可以省略this的入参，这是因为箭头函数会通过作用域链找到当前this对象，将上面的示例代码使用箭头函数来写：
+```javascript
+let set = new Set([1,2,3,3,3,3]);
+let operation ={
 
+    print(value){
+        console.log(value);
+    },
+
+    iterate(set=[]){
+        set.forEach((value,key)=>{
+            this.print(value);
+            this.print(key);
+        })
+    }
+
+}
+
+operation.iterate(set);
+```
