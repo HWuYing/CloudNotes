@@ -53,6 +53,6 @@ console.log(set.size); //2
 
 回调函数callback中有三个参数：
 
-1、
+1、元素值；
 2、
 3、
