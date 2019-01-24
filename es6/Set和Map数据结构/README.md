@@ -221,3 +221,5 @@ let map = new Map([['title','hello world'],['year','2018']]);
  2018
  year
 ```
+
+#####Weak Map的操作
