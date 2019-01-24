@@ -122,4 +122,5 @@ console.log(arr); // [1,2,3]
 #####Weak Set
 Set在存放对象时，实际上是存放的是对象的引用，即Set也被称之为Strong Set。如果所存储的对象被置为null，但是Set实例仍然存在的话，对象依然无法被垃圾回收器回收，从而无法释放内存：
 ```javascript
+
 ```
