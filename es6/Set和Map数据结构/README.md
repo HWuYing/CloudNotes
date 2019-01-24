@@ -37,5 +37,12 @@ console.log(set.has(5)); //false
 
 使用delete()方法从Set中删除某个值，或者使用clear()方法从Set中删除所有值：
 ```javascript
+let set = new Set([1,2,3,3,3,3]);
+console.log(set.size);//3
+console.log(set.has(5)); //false
 
+set.delete(1);
+
+console.log(set.has(1)); //false
+console.log(set.size); //2
 ```
