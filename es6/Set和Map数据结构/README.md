@@ -166,4 +166,4 @@ let map = new Map();
  console.log(map.size); //2
  ```
  
- 2、通过set()方法往Map中增加了两个键值对后，可以看到Map的大小就为2；
+通过set()方法往Map中增加了两个键值对后，可以看到Map的大小就为2；
