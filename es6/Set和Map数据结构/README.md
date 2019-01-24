@@ -169,3 +169,11 @@ let map = new Map();
 通过set()方法往Map中增加了两个键值对后，可以看到Map的大小就为2；
 
 2、通过get()方法可以从Map中提取值
+
+```javascript
+let map = new Map();
+ map.set('title','hello world');
+ map.set('year','2018');
+ 
+ console.log(map.get('title')); // hello world
+ ```
