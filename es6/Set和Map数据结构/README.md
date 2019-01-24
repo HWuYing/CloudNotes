@@ -226,3 +226,11 @@ let map = new Map([['title','hello world'],['year','2018']]);
 
 1、Weak Map的初始化
 Weak Map的键必须是对象，值可以是任意类型，初始化同Map一样，也可是使用数组来创建一个 Weak Map ：
+```javascript
+//使用数组来创建一个Weak Map
+let key = {};
+let key2 = {};
+let map = new WeakMap([[key,'hello'],[key2,'world']]);
+console.log(map.get(key)); //hello
+console.log(map.get(key2)); //world
+```
