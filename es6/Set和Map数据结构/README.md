@@ -179,6 +179,6 @@ let map = new Map();
  ```
  
  3、has(),delete()以及clear()方法
- 
+ 为了和Set的操作保持一致，Map中同样有has()方法，用来检查某个数据项是否存在于Map中，使用delete方法可以从Map中删除一个数据项，使用clear方法可以删除Map中所有的数据项
  ```javascript
  ```
