@@ -235,7 +235,7 @@ console.log(map.get(key)); //hello
 console.log(map.get(key2)); //world
 ```
 2、has方法以及delete方法
-
+与Map一样，可以使用has()方法来检查Weak Map中是否存在某一个键值对，使用delete()方法可以删除一个键值对。clear() 方法不存在，这是因为没必要对键进行枚举，并且枚举 Weak Map 也是不可能的，这与 Weak Set 相同：
 ```javascript
 
 ```
