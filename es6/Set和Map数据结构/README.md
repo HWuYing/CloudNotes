@@ -134,5 +134,12 @@ console.log(set.size); //2
 ```
 如果想让对象key正常释放的话，可以使用Weak Set，此时，存放的是对象的弱引用，当对象只被Set弱引用的话，并不会阻止对象实例被回收。Weka Set同Set的用法几乎一致。可以使用add()方法增加数据项，使用has()方法检查Weak Set中是否包含某项，以及使用delete()方法删除某一项。
 
-
+```javascript
+let set = new WeakSet();
+let key = {};   
+set.add(key);
+console.log(set.has(key)); //true
+set.delete(key);
+console.log(set.has(key)); //false
+```
 
