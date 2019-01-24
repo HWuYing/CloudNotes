@@ -234,4 +234,8 @@ let map = new WeakMap([[key,'hello'],[key2,'world']]);
 console.log(map.get(key)); //hello
 console.log(map.get(key2)); //world
 ```
+2、has方法以及delete方法
 
+```javascript
+
+```
