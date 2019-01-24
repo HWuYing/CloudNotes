@@ -111,3 +111,4 @@ let operation ={
 operation.iterate(set);
 ```
 
+#####将Set转换成数组
