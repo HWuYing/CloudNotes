@@ -118,3 +118,5 @@ operation.iterate(set);
 let [...arr]=set;
 console.log(arr); // [1,2,3]
 ```
+
+#####Weak Set
