@@ -177,3 +177,5 @@ let map = new Map();
  
  console.log(map.get('title')); // hello world
  ```
+ 
+ 3、has(),delete()以及clear()方法
