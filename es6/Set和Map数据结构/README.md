@@ -49,4 +49,4 @@ console.log(set.size); //2
 
 #####forEach()方法
 
-
+可以使用forEach方法来遍历Set中的数据项，该方法传入一个回调函数callback，还可以传入一个this，用于回调函数之中：
