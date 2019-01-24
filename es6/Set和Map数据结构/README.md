@@ -33,3 +33,4 @@ let set = new Set([1,2,3,3,3,3]);
 console.log(set.has(5)); //false
 ```
 
+删除值
