@@ -152,3 +152,4 @@ console.log(set.has(key)); //false
 4、Weak Set没有forEach()方法；
 5、Weak Set没有size属性；
 
+###ES6中的Map
