@@ -204,3 +204,5 @@ console.log(map.has('year')); //true
 console.log(map.size); //2
 ```
 #####Map的forEach方法
+
+与Set一样，Map也拥有forEach方法，该方法也接收一个回调函数，该回调函数有三个参数：
