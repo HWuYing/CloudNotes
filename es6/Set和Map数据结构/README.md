@@ -152,7 +152,3 @@ console.log(set.has(key)); //false
 4、Weak Set没有forEach()方法；
 5、Weak Set没有size属性；
 
-作者：你听___
-链接：https://www.jianshu.com/p/af78964c33e2
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
