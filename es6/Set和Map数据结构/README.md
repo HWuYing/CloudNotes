@@ -234,3 +234,4 @@ let map = new WeakMap([[key,'hello'],[key2,'world']]);
 console.log(map.get(key)); //hello
 console.log(map.get(key2)); //world
 ```
+
