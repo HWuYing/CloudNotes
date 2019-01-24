@@ -17,3 +17,4 @@ set.add('1');
 console.log(set.size);//2       
 ```
 
+Set内部使用Object.is()方法来判断两个数据项是否相等，唯一不同的是+0和-0在Set中被判断为是相等的。
