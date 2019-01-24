@@ -190,4 +190,4 @@ map.delete('title');
 console.log(map.has('title')); //false
 map.clear();
 console.log(map.size); //0
- ```
+```
