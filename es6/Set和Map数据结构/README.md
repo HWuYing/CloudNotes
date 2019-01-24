@@ -36,3 +36,5 @@ console.log(set.has(5)); //false
 删除值
 
 使用delete()方法从Set中删除某个值，或者使用clear()方法从Set中删除所有值：
+```javascript
+```
