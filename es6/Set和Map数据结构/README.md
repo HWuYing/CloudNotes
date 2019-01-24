@@ -203,4 +203,4 @@ console.log(map.has('title')); //true
 console.log(map.has('year')); //true
 console.log(map.size); //2
 ```
-
+#####Map的forEach方法
