@@ -25,3 +25,4 @@ Set内部使用Object.is()方法来判断两个数据项是否相等，唯一不
 let set = new Set([1,2,3,3,3,3]);
 console.log(set.size);//3
 ```
+
