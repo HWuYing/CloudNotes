@@ -146,3 +146,13 @@ console.log(set.has(key)); //false
 
 #####Weak Set和Set之间的差异
 
+对于Weak Set实例，若调用了add()方法时传入了非对象的参数，则会抛出错误。如果在has()或者delete()方法中传入了非对象的参数则会返回false；
+Weak Set不可迭代，因此不能用于for-of循环；
+Weak Set 无法暴露出任何迭代器（例如 keys() 与 values() 方法） ，因此没有任何编程手段可用于判断 Weak Set 的内容；
+Weak Set没有forEach()方法；
+Weak Set没有size属性；
+
+作者：你听___
+链接：https://www.jianshu.com/p/af78964c33e2
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
