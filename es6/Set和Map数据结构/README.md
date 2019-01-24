@@ -153,4 +153,4 @@ console.log(set.has(key)); //false
 5、Weak Set没有size属性；
 
 ####ES6中的Map
-
+ES6中提供了Map数据结构，能够存放键值对，其中，键的去重是通过Object.is()方法进行比较，键的数据类型可以是基本类型数据也可以是对象，而值也可以是任意类型数据。
