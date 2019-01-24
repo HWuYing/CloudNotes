@@ -142,4 +142,4 @@ console.log(set.has(key)); //true
 set.delete(key);
 console.log(set.has(key)); //false
 ```
-
+但需要注意的是：Weak Set构造器不接受基本类型数据，只接受对象。同样的可以使用可迭代的对象如数组，来作为构造器参数，来创建Weak Set。
