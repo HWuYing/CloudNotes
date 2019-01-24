@@ -225,4 +225,4 @@ let map = new Map([['title','hello world'],['year','2018']]);
 #####Weak Map的操作
 
 1、Weak Map的初始化
-
+Weak Map的键必须是对象，值可以是任意类型，初始化同Map一样，也可是使用数组来创建一个 Weak Map ：
