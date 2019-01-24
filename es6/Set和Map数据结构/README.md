@@ -244,3 +244,5 @@ let map = new WeakMap([[key,'hello'],[key2,'world']]);
 map.delete(key);
 console.log(map.has(key)); //false
 ```
+
+#####Weak Map 的用法与局限性
