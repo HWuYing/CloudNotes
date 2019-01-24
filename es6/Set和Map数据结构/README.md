@@ -26,7 +26,6 @@ let set = new Set([1,2,3,3,3,3]);
 console.log(set.size);//3
 ```
 
-
 #####检查某个值是否存在于Set中
 
 ```javascript
