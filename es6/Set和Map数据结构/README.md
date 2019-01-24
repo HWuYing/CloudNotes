@@ -210,5 +210,14 @@ console.log(map.size); //2
 2、键值对的值；
 3、当前Map对象引用；
 ```javascript
-
+let map = new Map([['title','hello world'],['year','2018']]);
+ map.forEach((value,key,ownerMap)=>{
+     console.log(value);
+     console.log(key);
+ });
+ 
+ hello world
+ title
+ 2018
+ year
 ```
