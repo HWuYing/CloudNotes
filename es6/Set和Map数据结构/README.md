@@ -66,3 +66,5 @@ console.log(set.size); //2
  ```
  
 Set中的value和key是相同的，这是为了让Set的forEach方法和数组以及Map的forEach方法保持一致，都具有三个参数。
+
+
