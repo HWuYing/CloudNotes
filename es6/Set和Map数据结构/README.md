@@ -191,3 +191,5 @@ console.log(map.has('title')); //false
 map.clear();
 console.log(map.size); //0
 ```
+
+#####Map的初始化
