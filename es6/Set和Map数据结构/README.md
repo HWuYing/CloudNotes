@@ -57,3 +57,10 @@ console.log(set.size); //2
 2、元素索引；
 3、将要遍历的对象；
 
+```javascript
+ let set = new Set([1,2,3,3,3,3]);
+ set.forEach(function (value,key,ownerSet) {
+     console.log(value);
+     console.log(key);           
+ })
+ ```
