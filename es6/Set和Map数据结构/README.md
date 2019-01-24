@@ -46,4 +46,4 @@ set.delete(1);
 console.log(set.has(1)); //false
 console.log(set.size); //2
 ```
-
+forEach()方法
