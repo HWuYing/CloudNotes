@@ -246,3 +246,5 @@ console.log(map.has(key)); //false
 ```
 
 #####Weak Map 的用法与局限性
+
+
