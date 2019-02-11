@@ -24,3 +24,11 @@ tsconfig.json: TypeScript项目的根目录，指定用来编译这个项目的�
 
 tslint.json：格式化和校验typescript
 ![](/assets/824378-20170703134025597-961212704.png)
+
+app：应用根目录
+
+assets：资源目录（静态文件（图片，js框架。。。）各种需要放置在此文件夹内，不然会出错，（尴尬。。。）
+
+pages：页面文件，放置编写的页面文件，包括：html，scss，ts。（搞事情的）
+
+theme：主题文件，里面有一个scss文件，设置主题信息。
