@@ -23,3 +23,4 @@ package.json: node安装模块时的依据
 tsconfig.json: TypeScript项目的根目录，指定用来编译这个项目的根文件和编译选项
 
 tslint.json：格式化和校验typescript
+
