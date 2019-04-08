@@ -68,7 +68,7 @@
 
 为什么要煞费苦心地构建纯函数？因为纯函数非常“靠谱”，执行一个纯函数你不用担心它会干什么坏事，它不会产生不可预料的行为，也不会对外部产生影响。不管何时何地，你给它什么它就会乖乖地吐出什么。如果你的应用程序大多数函数都是由纯函数组成，那么你的程序测试、调试起来会非常方便。
 
-
+```javascript
 class Subscription {
   protected close = false;
   private list: Subscriber[] = [];
@@ -219,3 +219,4 @@ setTimeout(() => {
   subscription.unsubscribe();
   subscription1.unsubscribe();
 }, 25000);
+```
