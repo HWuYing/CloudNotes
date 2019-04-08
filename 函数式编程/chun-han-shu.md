@@ -67,3 +67,155 @@
 一个函数的返回结果只依赖于它的参数，并且在执行过程里面没有副作用，我们就把这个函数叫做纯函数。
 
 为什么要煞费苦心地构建纯函数？因为纯函数非常“靠谱”，执行一个纯函数你不用担心它会干什么坏事，它不会产生不可预料的行为，也不会对外部产生影响。不管何时何地，你给它什么它就会乖乖地吐出什么。如果你的应用程序大多数函数都是由纯函数组成，那么你的程序测试、调试起来会非常方便。
+
+
+class Subscription {
+  protected close = false;
+  private list: Subscriber[] = [];
+
+  unsubscribe() {
+    this.close = true;
+    this.list.forEach((s) => s.unsubscribe());
+  }
+
+  add(subscript: Subscriber) {
+    this.list.push(subscript);
+  }
+}
+
+class Subscriber extends Subscription {
+  private destination: any;
+  private isStop: boolean = false;
+  constructor(next?: any, error?: any, complete?: any) {
+    super();
+    if (next instanceof Subscriber) {
+      this.destination = next;
+    } else {
+      next && (this._next = next);
+      error && (this._error = error);
+      complete && (this._complete = complete);
+    }
+  }
+
+  next(value: any) {
+    if (this.isStop) {
+      return;
+    }
+    this._next(value);
+  }
+
+  error(e: any) {
+    this._error(e);
+    this.unsubscribe();
+  }
+
+  complete() {
+    if (this.isStop) {
+      return ;
+    }
+    this.isStop = true;
+    this._complete();
+    this.unsubscribe();
+  }
+
+  unsubscribe() {
+    if (!this.isStop) {
+      this.complete();
+    }
+    super.unsubscribe();
+  }
+
+  _next(value: any) {
+    if (this.destination) {
+      this.destination.next(value);
+    }
+  }
+
+  _error(e: any) {
+    if (this.destination) {
+      this.destination.error(e);
+    }
+  }
+
+  _complete() {
+    if (this.destination) {
+      this.destination.complete();
+    }
+  }
+}
+
+class Observable {
+  private source: any;
+  private operator: any;
+  constructor(subscribe?: any) {
+    if (subscribe) {
+      this._subscribe = subscribe;
+    }
+  }
+
+  lift(callback: any) {
+    const observable = new Observable();
+    observable.source = this;
+    observable.operator = function (source: Observable, oberser: any) {
+      return source.subscribe((value: any) => oberser.next(callback(value)));
+    };
+    return observable;
+  }
+
+  subscribe(next: any, error?: any, complete?: any) {
+    let sink = new Subscriber(next, error, complete);
+    const { source, operator } = this;
+    if (operator) {
+      sink.add(operator(source || this, sink));
+    } else {
+      this._subscribe(sink);
+    }
+    return sink;
+  }
+
+  _subscribe(sink: any) {
+    const { source } = this;
+    return source && source.subscribe(sink);
+  }
+}
+
+(Observable as any).prototype.map = function(callback: any): Observable {
+  return this.lift((value: any) => (value || []).map(callback));
+};
+
+(Observable as any).prototype.filter = function(callback: any): Observable {
+  return this.lift((value: any) => (value || []).filter(callback));
+};
+
+(Observable as any).interval = function (timer: number) {
+  return new Observable((observer: Subscriber) => {
+    let i = 0;
+    console.log(observer);
+    const si = setInterval(() => {
+      observer.next([++i, ++i, ++i]);
+    }, timer);
+    observer.add(new Subscriber(undefined, undefined, () => {
+      clearInterval(si);
+    }));
+  });
+};
+
+const observale = Observable.interval(1000).map((result: any) => result);
+
+
+const subscription = observale
+  .filter((value: any) => value % 2 === 0)
+  .subscribe((result: any) => {
+    console.log(result);
+  });
+
+const subscription1 = observale
+  .filter((value: any) => value % 3 === 0)
+  .subscribe((result: any) => {
+    console.log(result);
+  });
+
+setTimeout(() => {
+  subscription.unsubscribe();
+  subscription1.unsubscribe();
+}, 25000);
