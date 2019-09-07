@@ -2,6 +2,14 @@
 
 .launch.json
 
-```javascript
-
+```javascript"configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "启动程序",
+      "program": "${workspaceFolder}/lib/login.js",
+      "sourceMaps": true,
+      "preLaunchTask": "build" // 等于下面`label`值
+    }
+  ]
 ```
