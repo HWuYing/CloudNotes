@@ -18,4 +18,16 @@
 tasks.json
 
 ```javascript
+{
+  "version": "2.0.0",
+  "command": "npm",
+  "tasks": [
+    {
+      "label": "build",
+      // 合起来就是`npm run build`
+      "type": "npm",
+      "script": "build"
+    }
+  ]
+}
 ```
