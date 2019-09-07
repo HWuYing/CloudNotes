@@ -31,3 +31,5 @@ tasks.json
   ]
 }
 ```
+
+package.json
