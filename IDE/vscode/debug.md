@@ -34,6 +34,8 @@ tasks.json
 
 package.json
 
+```javascript
 "scripts": {
-    "build": "babel src --out-dir lib --source-maps"
-  },
+  "build": "babel src --out-dir lib --source-maps"
+},
+```
