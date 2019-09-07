@@ -2,7 +2,8 @@
 
 .launch.json
 
-```javascript"configurations": [
+```javascript
+"configurations": [
     {
       "type": "node",
       "request": "launch",
