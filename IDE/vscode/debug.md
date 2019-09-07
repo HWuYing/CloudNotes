@@ -39,3 +39,5 @@ package.json
   "build": "babel src --out-dir lib --source-maps"
 },
 ```
+
+实际上这样较慢，建议单独在build加watch，然后直接不用preLaunchTask
