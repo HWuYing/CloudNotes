@@ -35,8 +35,8 @@
 * [Ionic](ionic/README.md)
   * [目录结构](ionic/目录结构/README.md)
 * [IDE](IDE/README.md)
-  *[vscode](IDE/vscode/README.md)
-    *[debug](IDE/vscode/debug.md)
+  * [vscode](IDE/vscode/README.md)
+    * [debug](IDE/vscode/debug.md)
 * [面试积累](面试积累/README.md)
 
   
